@@ -34,7 +34,7 @@ Optional arguments:
 
 ### Step 1: Search
 
-Run **WebSearch** queries from `search-queries.md`. By default, run the top 3 priority categories. If the user said "broad", run all categories.
+Run **WebSearch** queries from `search-queries.md`. By default, run Priority 0 (sector-agnostic) plus the top 2 sector-specific priority categories. If the user said "broad", run all categories.
 
 If the user specified a focus area (e.g. "data science"), prioritize queries from that category.
 

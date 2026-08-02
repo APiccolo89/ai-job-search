@@ -1,0 +1,50 @@
+Employment History - role descriptions for manual application forms
+
+
+POSITION 1
+
+Job Title: Research Fellow
+Employer: University of Leeds
+Location: Leeds, UK
+Dates: February 2025 - Present
+
+Role Description:
+Developing a numerical modelling package using FEniCSx and Python, and optimising a pre-existing package to achieve a 10x speedup. Building automated Python workflows to run simulations on HPC resources, process outputs, and analyse large research datasets. Integrating regression tests to validate outputs against known benchmarks, ensuring pipeline reliability. Managing the full analytical workflow independently, from model design through to documentation and reporting.
+
+
+POSITION 2
+
+Job Title: Research Fellow
+Employer: University of Bayreuth
+Location: Bayreuth, Germany
+Dates: November 2021 - May 2024
+
+Role Description:
+Delivered publicly available databases, condensing 30 TB of simulated data into 300 GB of curated, accessible outputs. Developed Python scripts for data cleaning, analysis, and visualisation to support project reporting. Extended an open-source modelling package in Julia, merging two modelling approaches to meet a collaborating institution's needs; this work led to two peer-reviewed publications. Collaborated across institutions with the KIT Karlsruhe basin modelling group, translating a partner's requirements into a working simulation workflow.
+
+
+POSITION 3
+
+Job Title: Research Fellow
+Employer: Johannes Gutenberg Universitat Mainz
+Location: Mainz, Germany
+Dates: November 2015 - July 2021
+
+Role Description:
+Generated and processed large-scale simulation datasets (100+ TB); applied statistical analysis to identify physical trends. Developed data-processing routines and 2D/3D visualisation tools in Python and MATLAB. Incorporated chemical process modelling into a large-scale 3D numerical code, in C. Presented modelling results at international conferences to diverse scientific audiences.
+
+
+EDUCATION (for forms that separate this out)
+
+PhD in Computational Geodynamics
+Johannes Gutenberg Universitat Mainz, Mainz, Germany
+November 2015 - May 2019
+Thesis: "Continental crust production during the early Earth: Constraints from geodynamic models."
+
+MSc in Geology and Technical Geology
+University of Padua, Padua, Italy
+October 2012 - March 2015
+
+BSc in Earth Sciences
+University of Padua, Padua, Italy
+October 2008 - March 2012

@@ -4,25 +4,36 @@
 
 Cover letters use a custom LaTeX document class (`cover.cls`) with Lato/Raleway fonts.
 
-**Output file:** `cover_letters/cover_<company>_<role>.tex`
+**Output file:** `cover_letters/<company>/cover_<company>_<role>.tex` - each application gets its own subfolder under `cover_letters/` (e.g. `cover_letters/bristol/cover_bristol_data-research-software-engineer.tex`), alongside any extra application-answer `.txt`/`.md` files for that company. Create the subfolder if it doesn't exist yet. `cover.cls` and `OpenFonts/` stay at the `cover_letters/` root (shared across all applications).
 **Compile with:** XeLaTeX (cover.cls requires fontspec)
-**Font directory:** `cover_letters/OpenFonts/fonts/`
+**Font directory:** `cover_letters/OpenFonts/fonts/` (relative to the `cover_letters/` root)
 
 ### Compile command
 
+Compile from the `cover_letters/` root with `-output-directory` pointing at the subfolder, so the relative `OpenFonts/` path in `\fontspec` still resolves correctly (compiling from *inside* the subfolder would break that relative path):
+
 ```bash
-cd cover_letters && xelatex -interaction=nonstopmode cover_<company>_<role>.tex
+cd cover_letters && xelatex -interaction=nonstopmode -output-directory=<company> <company>/cover_<company>_<role>.tex
 ```
 
-Expected output: `Output written on cover_<company>_<role>.pdf (1 page, ...)`. Any page count other than 1 is a failure that must be fixed before presenting to the user.
+Expected output: `Output written on <company>/cover_<company>_<role>.pdf (1 page, ...)`. Any page count other than 1 is a failure that must be fixed before presenting to the user.
 
 ## Compile-and-Inspect Loop (MANDATORY)
 
 After writing the cover letter and before presenting to the user, always compile and visually inspect the PDF. Iterate until the layout is clean:
 
-1. Run `xelatex -interaction=nonstopmode cover_<company>_<role>.tex`
+1. Run the compile command above
 2. Confirm page count is exactly 1 and compile succeeded
 3. Read the PDF via the Read tool and visually check: signature fits at the bottom, no text cut off, bullet font matches body
+
+### Known template pitfall: `\closing{}` and `\lettercontent{}` already append their own `\\`
+
+Both `\lettercontent{#1}` and `\closing{#1}` expand to `{#1 \\}...` internally — they append their own line break. If your own text also ends the argument with a trailing `\\` (easy to do by copying the placeholder pattern literally), you get two consecutive `\\` with nothing between them, which throws `! LaTeX Error: There's no line here to end.` The compile often still limps to a PDF in nonstopmode, so this is easy to miss — always check the compile log for `! LaTeX Error`, not just whether a PDF was produced.
+
+**Wrong:** `\closing{Kind regards,\\}`
+**Correct:** `\closing{Kind regards,}`
+
+Same rule applies to the last `\lettercontent{}` before `\closing{}` - do not add a trailing `\\` inside the argument.
 
 ### Known template pitfall: itemize inside `\lettercontent{}`
 
@@ -99,7 +110,7 @@ The font wrapper is mandatory — if you just move `\begin{itemize}` outside `\l
 \lettercontent{I look forward to hearing from you.}
 
 \begin{flushright}
-\closing{Kind regards,\\}
+\closing{Kind regards,}
 
 \signature{[YOUR_NAME]}
 \end{flushright}

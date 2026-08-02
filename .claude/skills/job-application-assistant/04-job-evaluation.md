@@ -16,9 +16,11 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Python, numerical modelling, large-scale data analysis, FEniCSx/FEM, HPC (SLURM/PBS), earth sciences, computational geodynamics, data pipelines, regression testing, Git/CI
+**Moderate match areas:** MATLAB, Julia, C, scientific visualisation, LaTeX/Sphinx documentation, cross-institutional collaboration
+**Weak match areas:** ML/AI frameworks (no experience), cloud platforms (AWS/GCP/Azure), commercial software development, SQL (learning), web development, product management
+
+**Calibration note (2026-07-30):** Don't over-credit broad methodological adjacency (e.g. "numerical methods," "HPC," "scientific programming") when the essential criteria name a specific specialist subfield Andrea hasn't worked in (e.g. CFD techniques like compressible flows/turbulence/multiphase flow, a different engineering discipline, a different natural-science domain). A Cambridge CFD/contrail-modelling role scored "high" at the scrape stage on methodological overlap alone, but Andrea judged it a poor fit on full review — it would mean learning an entire new specialist domain under real job pressure, not just picking up new tooling. **How to apply:** when essential criteria list a named specialist subfield outside Andrea's actual domain (computational geodynamics/earth sciences), score Technical Skills more conservatively (cap around 40-50 even with strong general numerical/HPC overlap) and flag the domain gap prominently rather than let broad-category overlap carry the score.
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +32,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Computational geodynamics, numerical simulation, scientific data analysis, earth sciences, HPC workflows, Python development for science
+**Moderate:** Environmental modelling, scientific software development, data engineering, cross-institutional research
+**Entry-level:** Commercial data science, industry consulting, environmental consulting (transitioning from academia)
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,10 +49,12 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
+- Anywhere in the UK: PASS (radius restriction lifted 2026-07-28 — priority is landing a first industry role)
 - Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- Scotland, Netherlands (any city), Ireland (any city), Norway (any city), Switzerland (any city), or Berlin (Germany only): PASS (secondary relocation options)
+- Requires relocation elsewhere: FAIL (deal-breaker)
 - Frequent international travel: FLAG (discuss with user)
+- **Requires UK nationality / security clearance (SC, DV) / defence sector with clearance mentioned: FLAG explicitly.** Andrea's UK right-to-work (Global Talent Visa) does not satisfy UK nationality or security clearance requirements — same principle as the UK Civil Service exclusion (see CLAUDE.md). Don't silently screen out, but flag clearly so Andrea can confirm case-by-case.
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +67,22 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Land a first industry role from academia — as of July 2026, sector and location are secondary to breaking in
+- Join a structured technical team with clear deliverables and genuine professional development opportunities
+- Open to anywhere in the UK; secondary international options: Scotland, Netherlands, Ireland, Norway, Switzerland, Berlin only. Salary target £39,000–£45,000 is a soft reference point, not a hard floor — do not screen out a reasonable permanent role for low salary alone
+- Longer-term: grow into a recognised in-house expert and mentor/support role within a company. A visible technical career ladder or mentoring culture is a positive signal, not a requirement, for a first role
 
-**Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+**Motivation filter (revised 2026-07-30):** Task type (whether the day-to-day is modelling/Python/analysis specifically, versus data administration, coordination, QC, or other technical-adjacent work) is **no longer a scoring factor** for Career Alignment — as of July 2026, landing a first industry role matters more than the tasks matching a specific "energizing" profile. Do not mark a role down just because it isn't modelling/analysis work.
+
+Still relevant to flag (not as a score penalty, but as context for the user to weigh):
+- Genuinely draining conditions remain worth noting: highly ambiguous or chaotic environments (this is a deal-breaker, see below), frequent context-switching with no clear priorities
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Seniority mismatch: a role titled "Junior"/"Entry-level"/"Early Careers" for a candidate with a PhD + a decade of experience is a distinct concern from task type — it can mean a real step backward in pay and career trajectory, and is still worth flagging explicitly
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Currently employed until Feb 2027 — not desperate, can be selective
+- **Flexibility**: Needs hybrid or flexible working; open to relocation anywhere in the UK
+- **Professional development**: Growth, learning, and technical challenge are must-haves — not just a job title change
 
 ### 6. Salary Benchmark (Optional)
 

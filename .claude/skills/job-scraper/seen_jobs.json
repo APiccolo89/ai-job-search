@@ -1,0 +1,756 @@
+{
+  "seen": {
+    "exponent-managing-scientist-environmental-risk-harrogate": {
+      "title": "Managing Scientist – Environmental Risk & Modelling",
+      "company": "Exponent",
+      "url": "https://uk.linkedin.com/jobs/view/managing-scientist-%E2%80%93-environmental-risk-modelling-biocides-industrial-chemicals-at-exponent-4418824566",
+      "first_seen": "2026-06-07",
+      "fit": "low",
+      "status": "evaluated"
+    },
+    "uol-research-fellow-forest-climate": {
+      "title": "Research Fellow in Modelled Forest-Climate Interactions",
+      "company": "University of Leeds",
+      "url": "https://uk.linkedin.com/jobs/view/research-fellow-in-modelled-forest-climate-interactions-at-university-of-leeds-4419878042",
+      "first_seen": "2026-06-07",
+      "fit": "low",
+      "status": "evaluated"
+    },
+    "wsp-hydrogeologist-groundwater-modelling-leeds": {
+      "title": "Hydrogeologist - Groundwater Modelling",
+      "company": "WSP",
+      "url": "https://uk.linkedin.com/jobs/view/hydrogeologist-groundwater-modelling-at-wsp-in-the-uk-ireland-4386740874",
+      "first_seen": "2026-06-07",
+      "fit": "low",
+      "status": "evaluated"
+    },
+    "sweco-wastewater-drainage-modeller-leeds": {
+      "title": "Wastewater/Urban Drainage Modeller",
+      "company": "Sweco",
+      "url": "https://uk.linkedin.com/jobs/view/wastewater-urban-drainage-modeller-at-sweco-4375966525",
+      "first_seen": "2026-06-07",
+      "fit": "low",
+      "status": "evaluated"
+    },
+    "uol-rse-food-ai-lab": {
+      "title": "Research Software Engineer (Food AI Lab)",
+      "company": "University of Leeds",
+      "url": "https://www.jobs.ac.uk/job/DRG053/research-software-engineer",
+      "first_seen": "2026-06-07",
+      "fit": "medium",
+      "status": "evaluated",
+      "notes": "CLOSED 15 May 2026. Closest Leeds RSE match found. Gaps: JavaScript, cloud deployment, API dev."
+    },
+    "uom-rse-ai-gis": {
+      "title": "Research Software Engineer – AI and GIS",
+      "company": "University of Manchester",
+      "url": "https://www.jobs.ac.uk/job/DPN712/research-software-engineer-ai-and-gis",
+      "first_seen": "2026-06-07",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Requires .NET and GIS — gaps. Closing date unclear (Dec 2025 or 2026)."
+    },
+    "uol-scientific-software-engineer-earth-system": {
+      "title": "Scientific Software Engineer in Earth System Modelling",
+      "company": "University of Leeds",
+      "url": "https://www.jobs.ac.uk/job/DQK549/scientific-software-engineer-in-earth-system-modelling",
+      "first_seen": "2026-06-07",
+      "fit": "high",
+      "status": "evaluated",
+      "notes": "CLOSED 26 Feb 2026. PERFECT FIT — Earth System Modelling, Python, HPC, School of Earth & Environment Leeds. Watch for recurrence."
+    },
+    "liverpool-senior-rse": {
+      "title": "Senior Research Software Engineer – Grade 8",
+      "company": "University of Liverpool",
+      "url": "https://www.jobs.ac.uk/job/DRM202/senior-research-software-engineer-grade-8",
+      "first_seen": "2026-06-07",
+      "fit": "medium",
+      "status": "evaluated",
+      "notes": "CLOSED 22 May 2026. Salary £47-60k. Senior level, requires ML/AI background. Liverpool ~1.5h from Leeds."
+    },
+    "arup-data-scientist-london": {
+      "title": "Data Scientist",
+      "company": "Arup",
+      "url": "https://jobs.arup.com/jobs/data-scientist-32541",
+      "first_seen": "2026-06-20",
+      "fit": "medium",
+      "status": "evaluated",
+      "notes": "CLOSED. London-based (Transport Planning division) — would have been too far anyway."
+    },
+    "metoffice-climate-extremes-statistical-scientist": {
+      "title": "Climate Extremes Statistical Scientist",
+      "company": "Met Office",
+      "url": "https://careershub.metoffice.gov.uk/members/modules/job/detail.php?record=108",
+      "first_seen": "2026-06-20",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "CLOSED (deadline 27 May 2024 - very stale listing). Exeter-based, too far anyway."
+    },
+    "cruk-scotland-rse-ross-gray": {
+      "title": "Research Software Engineer - Ross Gray",
+      "company": "CRUK Scotland Institute",
+      "url": "https://www.jobs.ac.uk/job/DRD011/research-software-engineer-ross-gray",
+      "first_seen": "2026-06-20",
+      "fit": "high",
+      "status": "evaluated",
+      "notes": "CLOSED (deadline 1 May 2026 already passed). PERMANENT, Glasgow, £37,638-£58,607 + relocation/visa allowance, Python/Git/CI/CD/Docker — strong skills match (PhD bioinformatics/physics/maths background accepted). Watch for recurrence/similar postings at CRUK Scotland Institute."
+    },
+    "uog-rse-kepsoft-kidney": {
+      "title": "Research Software Engineer (KEPsoft-UK kidney exchange)",
+      "company": "University of Glasgow",
+      "url": "https://www.jobs.ac.uk/job/DRL514/research-software-engineer",
+      "first_seen": "2026-06-20",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "CLOSED (deadline 26 May 2026 passed). Fixed-term through Sep 2027 — deal-breaker regardless. Python/Flask, healthcare domain (weak fit)."
+    },
+    "cruk-scotland-hpc-engineer": {
+      "title": "HPC Engineer",
+      "company": "CRUK Scotland Institute",
+      "url": "https://www.jobs.ac.uk/job/DSC770/hpc-engineer",
+      "first_seen": "2026-07-08",
+      "fit": "medium",
+      "status": "new",
+      "notes": "PERMANENT, Glasgow, £48,123-£58,607, deadline 24 Jul 2026. Linux/CPU/GPU cluster infra, data workflows for research platforms. Strong location/salary/contract match; role leans more sysadmin/infra than data science/modelling."
+    },
+    "aecom-flood-modeller-leeds": {
+      "title": "Flood Modeller",
+      "company": "AECOM",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000134800369-flood-modeller",
+      "first_seen": "2026-07-08",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Leeds, hybrid. Requires HEC-RAS/TUFLOW/MIKE FLOOD/InfoWorks ICM domain software - no Python. Weak transferable skill match despite 'modelling' title."
+    },
+    "aecom-principal-flood-modeller-leeds": {
+      "title": "Principal Flood Modeller",
+      "company": "AECOM",
+      "url": "https://www.totaljobs.com/job/principal-flood-modeller/aecom-job106537009",
+      "first_seen": "2026-07-08",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Leeds/West Yorkshire, senior/principal level requiring years of UK flood consultancy experience - not a fit for career-changer profile."
+    },
+    "atkinsrealis-hydraulic-modeller-leeds": {
+      "title": "Hydraulic Modeller",
+      "company": "AtkinsRéalis",
+      "url": "https://careers.atkinsrealis.com/job/hydraulic-modeller-leeds-in-leeds-jid-38377",
+      "first_seen": "2026-07-08",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Leeds, wastewater/drainage 1D/2D modelling (GIS-based), similar domain gap to previously-seen Sweco role."
+    },
+    "yorkshirewater-ecological-data-officer": {
+      "title": "Ecological Data Officer",
+      "company": "Yorkshire Water",
+      "url": "https://environmentjob.co.uk/jobs/110835-ecological-data-officer",
+      "first_seen": "2026-07-08",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Bradford now, moving to Leeds Valley Park spring 2026. £37,055-£46,283 (low end below £39k deal-breaker floor). Ecology/hydro-ecological data domain, not core modelling skillset."
+    },
+    "liverpool-research-data-scientist-postdoc": {
+      "title": "Research Data Scientist / Postdoctoral Research Associate",
+      "company": "University of Liverpool",
+      "url": "https://www.jobs.ac.uk/search",
+      "first_seen": "2026-07-08",
+      "fit": "medium",
+      "status": "evaluated",
+      "notes": "Geography and Planning dept, £39,906-£46,049, deadline 13 Jul 2026. SKIPPED: fixed-term - deal-breaker."
+    },
+    "glasgow-rse-ubdc": {
+      "title": "Research Software Engineer (Urban Big Data Centre)",
+      "company": "University of Glasgow",
+      "url": "https://www.jobs.ac.uk/job/DSA254/research-software-engineer",
+      "first_seen": "2026-07-08",
+      "fit": "medium",
+      "status": "evaluated",
+      "notes": "£41,064-£46,049, Glasgow, deadline 27 Jul 2026. SKIPPED: fixed-term until 31 Oct 2028 - deal-breaker."
+    },
+    "leeds-building-society-model-validation-specialist": {
+      "title": "Model Validation Specialist",
+      "company": "Leeds Building Society",
+      "url": "https://uk.indeed.com/q-python-numerical-modelling-l-leeds-jobs.html",
+      "first_seen": "2026-07-08",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Hybrid Leeds, £50k-£68k, permanent. Financial model validation - outside target sectors (finance, not environmental/energy/research)."
+    },
+    "linkscheme-senior-data-engineer-harrogate": {
+      "title": "Senior Data Engineer",
+      "company": "Link Scheme Ltd",
+      "url": "https://uk.indeed.com/q-hpc-python-l-leeds-jobs.html",
+      "first_seen": "2026-07-08",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Hybrid Harrogate, £50k-£60k, permanent. Payments/ATM network scheme provider - decent salary/location but outside target sectors, generic data engineering."
+    },
+    "pharmacy2u-mlops-engineer-leeds": {
+      "title": "Technology - ML Ops Engineer",
+      "company": "Pharmacy2U",
+      "url": "https://www.glassdoor.co.uk/job-listing/technology-ml-ops-engineer-pharmacy2u-JV_IC3414359_KO0,26_KE27,37.htm?jl=1010146997305",
+      "first_seen": "2026-07-08",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Hybrid Leeds, £60k-£75k, great salary/location but requires Docker/Kubernetes/Azure MLOps (explicit weak-match/no-experience area). Hard skills gap, not just sector mismatch."
+    },
+    "leeds-building-society-credit-risk-roles": {
+      "title": "Model Validation Specialist / Senior Model Validation Analyst / Credit Risk Analytics",
+      "company": "Leeds Building Society, Skipton Building Society, Deloitte",
+      "url": "https://www.totaljobs.com/job/model-validation-analyst/leeds-building-society-job107083092",
+      "first_seen": "2026-07-08",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Good salary/location/permanent, and Python is used, but all require IRB/IFRS9 credit risk modelling domain expertise as an essential criterion - hard domain gap, not just a soft sector preference, even with broadened sector search."
+    },
+    "manchester-technical-specialist-quantum-materials": {
+      "title": "Technical Specialist (Quantum Materials and Device Characterisation)",
+      "company": "University of Manchester",
+      "url": "https://www.jobs.ac.uk/job/DQT570/technical-specialist-ames",
+      "first_seen": "2026-07-08",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Manchester, permanent, £37,694-£46,049 - location fine but role is hands-on lab technician (cryogenic/RF equipment operation), not computational. No hybrid, in-person only."
+    },
+    "turing-institute-data-scientist-eme": {
+      "title": "Data Scientist / Senior Data Scientist - EME",
+      "company": "The Alan Turing Institute",
+      "url": "https://www.jobs.ac.uk/job/DKP262/data-scientist",
+      "first_seen": "2026-07-08",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "London (min 4 office days/month) - too far, no relocation appetite for London. Defence/security radio-frequency domain requiring UK SC security clearance. Contract type unclear (jobs.ac.uk says permanent, Turing's own posting says fixed-term 3yr)."
+    },
+    "engie-uk-data-scientist-leeds": {
+      "title": "Data Scientist",
+      "company": "ENGIE UK",
+      "url": "https://uk.linkedin.com/jobs/view/data-scientist-leeds-at-engie-uk-3464908203",
+      "first_seen": "2026-07-24",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "LinkedIn listing expired (redirects to generic jobs search). Energy sector target company - worth re-searching later for a live posting."
+    },
+    "bgs-data-scientist-cpf629": {
+      "title": "Data Scientist (listing ID stale/recycled)",
+      "company": "British Geological Survey",
+      "url": "https://www.jobs.ac.uk/job/CPF629/data-scientist",
+      "first_seen": "2026-07-24",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "jobs.ac.uk job ID has been recycled to an unrelated De Montfort University posting - the original BGS Data Scientist listing is gone. BGS is a target org, check bgs.ac.uk/about/careers/ directly next time (careers page URL 404'd)."
+    },
+    "uol-atmospheric-remote-sensing-scientist": {
+      "title": "Atmospheric Remote Sensing Scientist",
+      "company": "University of Leeds (NCAS)",
+      "url": "https://jobs.leeds.ac.uk/vacancy.aspx?ref=ENVNC1038",
+      "first_seen": "2026-07-24",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Permanent, Leeds, Grade 8 £51,753-£59,966, closes 10 Aug 2026. SKIPPED: senior PI-level research leadership role requiring domain expertise in radar/atmospheric remote sensing (not Andrea's domain) and explicitly requires securing external research funding - deal-breaker."
+    },
+    "uol-postdoc-boundary-layer-meteorology": {
+      "title": "Postdoctoral Research Fellow in Boundary-Layer Meteorology",
+      "company": "University of Leeds",
+      "url": "https://jobs.leeds.ac.uk/vacancy.aspx?ref=ENVEE1881",
+      "first_seen": "2026-07-24",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Fixed-term 6 months, 50% FTE, closes 5 Aug 2026. SKIPPED: fixed-term - deal-breaker."
+    },
+    "uol-interim-head-of-data-services": {
+      "title": "Acting Interim Head of Data Services",
+      "company": "University of Leeds",
+      "url": "vacancy.aspx?ref=CSUIT1865",
+      "first_seen": "2026-07-24",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Grade 9 £61,759-£73,708, closes 31 Jul 2026. SKIPPED: 'Acting Interim' suggests secondment/temporary leadership cover, and it's a management/admin role rather than hands-on technical - no technical team fit unclear, leadership-only concern."
+    },
+    "netzero-geosystems-computational-geoscientist-co2": {
+      "title": "Computational Geoscientist - CO2 Storage",
+      "company": "Net-Zero Geosystems",
+      "url": "https://uk.linkedin.com/jobs/view/computational-geoscientist-co2-storage-uk-based-remote-at-net-zero-geosystems-3811585739",
+      "first_seen": "2026-07-24",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "LinkedIn listing expired (redirects to generic jobs search). Sounded like a strong potential fit (computational geoscience + CO2 storage/energy transition, UK remote) - worth re-searching by company name for a live posting."
+    },
+    "uol-geosolutions-geothermal-research-fellow": {
+      "title": "Research Fellow in Geosolutions: Geothermal Energy Solutions",
+      "company": "University of Leeds",
+      "url": "https://uk.linkedin.com/jobs/view/research-fellow-in-geosolutions-geothermal-energy-solutions-for-the-university-of-leeds-and-leeds-city-region-at-university-of-leeds-3325001275",
+      "first_seen": "2026-07-26",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "LinkedIn listing 404/expired."
+    },
+    "virtuetech-data-scientist-renewable-energy": {
+      "title": "Data Scientist - Renewable Energy",
+      "company": "VirtueTech Recruitment Group (client, sustainable infrastructure)",
+      "url": "https://talents.studysmarter.co.uk/companies/virtuetech-recruitment-group/data-scientist-renewable-energy-up-to-600-day-outside-ir35-remote-ldn-6-mths-rolling-16190390/",
+      "first_seen": "2026-07-26",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "SKIPPED: contractor role, £600/day Outside IR35, 6-month rolling contract - fixed-term/contract deal-breaker despite otherwise strong Python/renewable-energy/remote fit."
+    },
+    "uol-hydrological-environmental-modelling-dqp818": {
+      "title": "Research Fellow in Hydrological and Environmental Modelling",
+      "company": "University of Leeds",
+      "url": "https://www.jobs.ac.uk/job/DQP818/research-fellow-in-hydrological-and-environmental-modelling",
+      "first_seen": "2026-07-26",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "jobs.ac.uk ID stale - redirects to generic Physical & Environmental Sciences search results, original posting gone (was about hydrological modelling in Zambia)."
+    },
+    "uol-rse-assistant-doy306": {
+      "title": "Research Software Engineer Assistant",
+      "company": "University of Leeds",
+      "url": "https://www.jobs.ac.uk/job/DOY306/research-software-engineer-assistant",
+      "first_seen": "2026-07-26",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "jobs.ac.uk ID stale - redirects to generic IT Services search results, original Research Computing team posting gone. Worth re-searching by title later - Research Computing team roles (AI/Bioinformatics/CFD/Data Science) are a strong fit domain."
+    },
+    "goodwork-consultant-energy-modelling": {
+      "title": "Consultant, Energy Modelling",
+      "company": "GoodWork Environmental Jobs",
+      "url": "https://www.linkedin.com/jobs/view/consultant-energy-modelling-at-goodwork-environmental-jobs-4287029657",
+      "first_seen": "2026-07-26",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "LinkedIn listing 404/expired."
+    },
+    "instrumentel-data-scientist-leeds": {
+      "title": "Data Scientist",
+      "company": "Instrumentel",
+      "url": "https://www.instrumentel.com/",
+      "first_seen": "2026-07-26",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "Listing dates to Dec 2024 (asset monitoring/predictive maintenance, Leeds) - stale, no live posting found, company careers page 404s. Worth re-checking Instrumentel directly later, decent Leeds-based industry data science match if reposted."
+    },
+    "bgs-no-current-vacancies-2026-07": {
+      "title": "N/A - checked BGS careers page directly",
+      "company": "British Geological Survey",
+      "url": "https://www.bgs.ac.uk/about-bgs/working-with-us/job-vacancies/",
+      "first_seen": "2026-07-26",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "BGS careers page confirms zero current vacancies as of 2026-07-26. Target org - re-check periodically."
+    },
+    "glasgow-rse-2-positions-cdsai": {
+      "title": "Research Software Engineer (2 positions)",
+      "company": "University of Glasgow",
+      "url": "https://www.jobs.gla.ac.uk/job/research-software-engineer-2-positions-5831177",
+      "first_seen": "2026-07-26",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "SKIPPED: fixed-term up to 3 years (deal-breaker), deadline already passed (31 Mar 2026). Centre for Data Science/AI - ML/deep-learning focus, only partial skills overlap."
+    },
+    "netzero-geosystems-lead-computational-geoscientist": {
+      "title": "Lead Computational Geoscientist",
+      "company": "Net-Zero Geosystems",
+      "url": "https://uk.linkedin.com/jobs/view/lead-computational-geoscientist-at-net-zero-geosystems-4119784153",
+      "first_seen": "2026-07-24",
+      "fit": "high",
+      "status": "new",
+      "notes": "Small Imperial College London spinout - predictive numerical modelling (FEM/FDM/FVM/DEM, implicit solvers) for CO2 storage/well integrity, UK-based/remote. Extremely close skills match (computational geodynamics PhD -> computational geoscience for energy transition). No live careers page on netzerogeosystems.com (team page + contact@netzerogeosystems.com only) - listing itself may be stale too. STRONG CANDIDATE FOR SPECULATIVE OUTREACH given the rarity of this exact niche match."
+    },
+    "halliburton-junior-gg-subsurface-app-support-bergen": {
+      "title": "Junior Geology & Geophysics Onsite Consultant - Subsurface Application Support",
+      "company": "Halliburton (Landmark)",
+      "url": "https://www.finn.no/410918786",
+      "first_seen": "2026-07-28",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "EXPIRED (deadline 24 Jun 2025). Bergen/Tananger, Norway. Would have been a strong match: MSc geoscience + Python/scripting + Linux + AI awareness, supporting DecisionSpace/OpenWorks users - near-identical profile to the Halliburton Abingdon Data Integration Geoscientist role Andrea already applied to. Worth re-checking Halliburton Norway careers periodically for a live recurrence of this exact role type."
+    },
+    "halliburton-geoscientist-i-stavanger": {
+      "title": "Geoscientist I",
+      "company": "Halliburton (Landmark)",
+      "url": "https://careers.halliburton.com/job/stavanger/geoscientist-i/543/92448194512",
+      "first_seen": "2026-07-28",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "Listing ID 404'd/expired despite being indexed as posted 6 Mar 2026 (Stavanger, Norway). Hydrocarbon exploration/development domain focus, weaker Python/data-integration emphasis than the Bergen role above. Re-check careers.halliburton.com/location/norway-jobs directly for current openings - the search-results page itself would not render individual listings via WebFetch."
+    },
+    "equinor-graduate-subsurface-data-digital-2025": {
+      "title": "Graduate 2025 - Subsurface Data & Digital (Norway)",
+      "company": "Equinor ASA",
+      "url": "https://no.linkedin.com/jobs/view/graduate-2025-subsurface-data-digital-norway-at-equinor-3986533979",
+      "first_seen": "2026-07-28",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "EXPIRED (deadline 1 Sep 2024). Stavanger/Bergen/Oslo/Harstad/Stjordal. 2-year graduate rotational programme, max 2 years professional experience - not suitable for Andrea's PhD + decade-of-experience level. Confirms Equinor has an active 'Subsurface Data & Digital' team/track worth watching for a non-graduate equivalent."
+    },
+    "equinor-subsurface-geoscientist-harstad": {
+      "title": "Subsurface Geoscientist",
+      "company": "Equinor ASA",
+      "url": "https://www.finn.no/job/ad/323295727",
+      "first_seen": "2026-07-28",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "EXPIRED (deadline 22 Oct 2023, stale listing). Harstad/Bergen/Stjordal, 6 openings. Domain is exploration geoscience (data management/visualization), not data-engineering-led - weaker fit than the data-integration-specific roles."
+    },
+    "varenergi-experienced-geoscientist-sandnes": {
+      "title": "Experienced Geoscientist(s)",
+      "company": "Vår Energi ASA",
+      "url": "https://jobs.varenergi.no/job/Sandnes-Experienced-Geoscientist-4313/986566955/",
+      "first_seen": "2026-07-28",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "FILLED. Sandnes, Norway. Subsurface data integration across wellbore/reservoir/field scales - domain matches the Halliburton Abingdon role's requirements closely. Var Energi is worth re-checking periodically (jobs.varenergi.no) as they clearly hire this profile regularly."
+    },
+    "varenergi-graduate-geoscientist-2026": {
+      "title": "Graduate 2026 - Geoscientist",
+      "company": "Vår Energi ASA",
+      "url": "https://jobs.varenergi.no/job/Sandnes-Graduate-2026-Geoscientist-4313/1164895555/",
+      "first_seen": "2026-07-28",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Sandnes, Norway. Graduate programme (Barents Sea geology, seismic interpretation training) - not suitable given Andrea's seniority/experience level."
+    },
+    "slb-data-scientist-unknown-location": {
+      "title": "Data Scientist / D&I Data Scientist / IT Data Scientist / Data and Infrastructure Engineer",
+      "company": "SLB",
+      "url": "https://apply.slb.com/careers/job/563499731108485",
+      "first_seen": "2026-07-28",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "SLB's careers portal (apply.slb.com) is JS-rendered and does not expose details to WebFetch, but cross-referenced via other job boards: these specific postings are in Brazil (Rio, Data and Infrastructure Engineer), US (Menlo Park/Houston, Data Scientist), and Indonesia - not Netherlands/Norway. SLB does have a Netherlands HQ (The Hague) and Norway presence (OneSubsea, Oslo) but no live matching posting found there as of 2026-07-28. Re-check apply.slb.com directly filtered by Netherlands/Norway periodically - browser tool (claude-in-chrome) not connected this session, would help render the JS portal next time."
+    },
+    "oxford-biobank-data-scientist-dsd138": {
+      "title": "Data Scientist – Health Outcomes for UK Biobank",
+      "company": "University of Oxford",
+      "url": "https://www.jobs.ac.uk/job/DSD138/data-scientist-health-outcomes-for-uk-biobank",
+      "first_seen": "2026-07-30",
+      "fit": "medium",
+      "status": "new",
+      "notes": "Fixed-term, £39,424-£47,779, Oxford. Deadline 30 Jul 2026 noon - TODAY, may already be closed. OMOP/health-data ETL pipelines - strong Python/data skills match but health-epidemiology domain is adjacent, not core."
+    },
+    "oxford-addressap-data-scientist-drq682": {
+      "title": "Data Scientist (ADDRESS-AP)",
+      "company": "University of Oxford",
+      "url": "https://www.jobs.ac.uk/job/DRQ682/data-scientist",
+      "first_seen": "2026-07-30",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "EXPIRED - deadline was 18 Jun 2026, already passed. Fixed-term 2yr, ML/clinical data analysis, £39,424-£47,779."
+    },
+    "newcastle-ktp-data-scientist-drq144": {
+      "title": "Data Scientist (KTP Associate)",
+      "company": "Newcastle University / One Utility Bill",
+      "url": "https://www.jobs.ac.uk/job/DRQ144/data-scientist-ktp-associate",
+      "first_seen": "2026-07-30",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "EXPIRED - deadline was 14 Jun 2026. Fixed-term 2yr KTP, £43k-£47k, Newcastle, energy-usage prediction modelling - decent technical fit but stale listing."
+    },
+    "belfast-ktp-ai-engineer-baird-drx347": {
+      "title": "AI Engineer/Data Scientist - KTP Associate",
+      "company": "W & G Baird Ltd / Queen's University Belfast",
+      "url": "https://www.jobs.ac.uk/job/DRX347/ai-engineer-data-scientist-ktp-associate-w-and-g-baird-ltd",
+      "first_seen": "2026-07-30",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "EXPIRED - deadline was 29 Jun 2026. Fixed-term 30mo KTP, £35k-£38k, Belfast, NLP/workflow-automation domain - weaker fit."
+    },
+    "bristol-data-research-software-engineer-dsi309": {
+      "title": "Data Research Software Engineer",
+      "company": "University of Bristol (Bristol Medical School)",
+      "url": "https://www.jobs.ac.uk/job/DSI309/data-research-software-engineer",
+      "first_seen": "2026-07-30",
+      "fit": "high",
+      "status": "new",
+      "notes": "Permanent (open-ended, 12mo initial funding), £43,482-£50,253, Bristol hybrid (2 days office). Deadline 4 Aug 2026 - OPEN. NHS data ETL/reproducible pipelines - strong match to the Bayreuth 30TB->300GB database delivery experience. No prior NHS data experience but pipeline skills are directly transferable."
+    },
+    "cambridge-contrail-modelling-dsk505": {
+      "title": "Research Associate in Modelling and Simulation of Contrail Formation",
+      "company": "University of Cambridge (Whittle Laboratory)",
+      "url": "https://www.jobs.ac.uk/job/DSK505/research-associate-in-modelling-and-simulation-of-contrail-formation-fixed-term",
+      "first_seen": "2026-07-30",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Fixed-term 12mo, £33,002-£46,049, Cambridge. Full CV (main_cambridge.tex) and cover letter drafted, but Andrea declined to submit after review: essential criteria are CFD/aerospace-engineering-specific (compressible flows, turbulence, multiphase phase-change), and the numerical-methods/HPC overlap is a genuine stretch rather than a close match - reads as an aerodynamics engineer role, not a good fit despite initial 'high' scrape-stage signal. Revised down from 'high' after full review."
+    },
+    "liverpool-materials-design-dsk503": {
+      "title": "Postdoctoral Researcher in Computationally-Driven Materials Design and Discovery",
+      "company": "University of Liverpool",
+      "url": "https://www.jobs.ac.uk/job/DSK503/postdoctoral-researcher-in-computationally-driven-materials-design-and-discovery-grade-7",
+      "first_seen": "2026-07-30",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Fixed-term to Oct 2029, £39,906-£46,049, Liverpool. Deadline 22 Sep 2026. Requires a PhD specifically in chemistry - explicit qualification gap despite computational-workflow skill overlap."
+    },
+    "embl-ebi-software-engineer-uniprot": {
+      "title": "Software Engineer (UniProt)",
+      "company": "EMBL-EBI",
+      "url": "https://www.totaljobs.com/job/software-engineer/embl-ebi-job107727885",
+      "first_seen": "2026-07-30",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Fixed-term 3yr, £43,015-£72,738, Hinxton hybrid. Deadline 16 Aug 2026. Requires Java/SpringBoot backend web development as the primary stack - explicit skills gap (no Java/web-backend experience); Python is only secondary."
+    },
+    "jet2-senior-data-scientist-leeds": {
+      "title": "Senior Data Scientist",
+      "company": "Jet2.com / Jet2holidays (via Hackajob Ltd)",
+      "url": "https://www.totaljobs.com/job/senior-data-scientist/hackajob-ltd-job107728074",
+      "first_seen": "2026-07-30",
+      "fit": "medium",
+      "status": "new",
+      "notes": "Permanent, £60k-£90k, Leeds (LS1) hybrid 2 days office. Requires AWS Sagemaker/Bedrock cloud ML platform experience - an explicit weak-match area - and 'Senior' title implies a prior commercial DS track record. Strong location/salary if the cloud-platform gap can be bridged or addressed in interview."
+    },
+    "nationalhighways-principal-data-scientist": {
+      "title": "Principal Data Scientist",
+      "company": "National Highways",
+      "url": "https://www.totaljobs.com/job/data-scientist/national-highways-job107723289",
+      "first_seen": "2026-07-30",
+      "fit": "medium",
+      "status": "new",
+      "notes": "Permanent, £55,810-£66,690, hybrid 2 days office, multiple UK offices including Leeds. Technical leadership over multidisciplinary data-science projects - 'Principal' seniority is likely above a first industry role, but the Leeds office option plus permanent/high salary make it worth flagging."
+    },
+    "aa-lead-data-scientist-linkedin-expired": {
+      "title": "Lead Data Scientist",
+      "company": "The AA",
+      "url": "https://uk.linkedin.com/jobs/view/lead-data-scientist-at-the-aa-3712781589",
+      "first_seen": "2026-07-30",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "LinkedIn listing expired - redirects to a generic 'routes-healthcare-jobs' search page."
+    },
+    "ucl-rse-neuroinformatics-linkedin-expired": {
+      "title": "Research Software Engineer (Neuroinformatics Unit)",
+      "company": "UCL",
+      "url": "https://uk.linkedin.com/jobs/view/research-software-engineer-at-ucl-3668230734",
+      "first_seen": "2026-07-30",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "LinkedIn listing expired - redirects to a generic Research Software Engineer jobs search page."
+    },
+    "uol-lida-data-scientist-drl503-stale": {
+      "title": "LIDA Data Scientist",
+      "company": "University of Leeds",
+      "url": "https://www.jobs.ac.uk/job/DRL503/lida-data-scientist",
+      "first_seen": "2026-07-30",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "jobs.ac.uk ID stale - redirects to a generic Computer Science category search rather than the specific posting. Worth re-searching by title later; LIDA (Leeds Institute for Data Analytics) is a strong local-fit source to watch."
+    },
+    "rse-stale-ids-imperial-bath-lancaster-birmingham-ucl-leicester": {
+      "title": "Research Software Engineer (multiple stale listings)",
+      "company": "Imperial College London / University of Bath / Lancaster University / University of Birmingham / UCL (Bio-Imaging) / University of Leicester",
+      "url": "https://www.jobs.ac.uk/job/DQD905 ; DRD419 ; DPT499 ; DLO447 ; DRB437 ; DNP801",
+      "first_seen": "2026-07-30",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "All six job IDs from a WebSearch cache redirected to generic category search-result pages instead of the specific posting - stale/expired IDs. RSE roles at these institutions are a strong recurring skills match (Python/HPC); worth re-searching live via jobs.ac.uk's own search UI next time rather than cached individual URLs."
+    },
+    "stantec-environmental-data-scientist-energy-9030": {
+      "title": "Environmental Data Scientist | Energy",
+      "company": "Stantec",
+      "url": "https://careers-uk-ireland.stantec.com/vacancies/9030/environmental-data-scientist--energy.html",
+      "first_seen": "2026-07-30",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Shrewsbury/Warrington, salary/contract not listed. Despite the title, essential requirements are EQuIS/AGS/VBA/GIS data-coordination tools, not Python/modelling - role reads as data administration (lab scheduling, QA/QC, training), not analysis. Weak Fit (41/100) evaluated 2026-07-30."
+    },
+    "stantec-senior-water-network-modeller-leeds-9211": {
+      "title": "Senior Water Network Modeller",
+      "company": "Stantec",
+      "url": "https://careers-uk-ireland.stantec.com/vacancies/9211/senior-water-network-modeller.html",
+      "first_seen": "2026-07-30",
+      "fit": "low",
+      "status": "skipped",
+      "notes": "Leeds. Not fetched in detail, but 'water network modeller' roles match the established low-fit pattern from Sweco/AECOM/AtkinsRealis (domain-specific hydraulic modelling software - e.g. InfoWorks ICM - not Python/computational modelling). 'Senior' level also likely requires prior UK water-sector consultancy experience. Re-fetch if no better options surface."
+    },
+    "stantec-water-network-modeller-other-locations": {
+      "title": "Senior/Principal Water Network Modeller (multiple postings)",
+      "company": "Stantec",
+      "url": "https://careers-uk-ireland.stantec.com/vacancies/9213 ; 9209 ; 8860",
+      "first_seen": "2026-07-30",
+      "fit": "low",
+      "status": "skipped",
+      "notes": "Cardiff, London/Reading - same domain-software gap as the Leeds posting (9211). Not fetched individually."
+    },
+    "stantec-hydraulic-engineer-roles": {
+      "title": "Hydraulic Engineer / Senior / Senior Principal (multiple postings)",
+      "company": "Stantec",
+      "url": "https://careers-uk-ireland.stantec.com/vacancies/9186 ; 9185 ; 9184 ; 9218",
+      "first_seen": "2026-07-30",
+      "fit": "low",
+      "status": "skipped",
+      "notes": "Various UK locations incl. Leeds/Edinburgh/Warrington. Hydraulic/water engineering domain (civil/water sector), not computational geodynamics/Python - not fetched individually, clear domain mismatch."
+    },
+    "stantec-ecologist-roles": {
+      "title": "Project Ecologist / Lead Ecologist / Ecologists EOI (multiple postings)",
+      "company": "Stantec",
+      "url": "https://careers-uk-ireland.stantec.com/vacancies/9220 ; 8334 ; 9187",
+      "first_seen": "2026-07-30",
+      "fit": "low",
+      "status": "skipped",
+      "notes": "Ireland and various UK locations. Ecology domain - no overlap with computational/data background, not fetched individually."
+    },
+    "ucl-arc-research-software-engineer-dsh873": {
+      "title": "Research Software Engineer",
+      "company": "UCL (Centre for Advanced Research Computing)",
+      "url": "https://www.jobs.ac.uk/job/DSH873/research-software-engineer",
+      "first_seen": "2026-07-30",
+      "fit": "high",
+      "status": "applied",
+      "notes": "PERMANENT, £43,981-£52,586, London hybrid. General RSE remit (PhD, research software dev, one research language, technical writing) - no narrow domain requirement, strong match for Andrea's actual skill set. Cloud/DevOps 'encouraged' but not essential. APPLIED 2026-07-30 via UCL portal free-text answer (cover_letters/ucl_application_answer.txt)."
+    },
+    "exeter-research-data-scientist-dsj979": {
+      "title": "Research Data Scientist",
+      "company": "University of Exeter (Research Software and Analytics Group)",
+      "url": "https://www.jobs.ac.uk/job/DSJ979/research-data-scientist",
+      "first_seen": "2026-07-30",
+      "fit": "medium",
+      "status": "new",
+      "notes": "PERMANENT, £43,482-£46,049, Exeter hybrid. Deadline 10 Aug 2026 - OPEN. Broad cross-disciplinary research data science support role, emphasis on reproducibility and collaboration rather than a narrow named tech stack - good methodological match. Named contact for informal enquiries: Dr Craig Willis, C.Willis2@exeter.ac.uk."
+    },
+    "edinburgh-edina-software-engineer-dsj418": {
+      "title": "Software Engineer",
+      "company": "University of Edinburgh (EDINA)",
+      "url": "https://www.jobs.ac.uk/job/DSJ418/software-engineer",
+      "first_seen": "2026-07-30",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "PERMANENT, £41,064-£48,822, Edinburgh hybrid (Scotland). Good location but the actual stack is Ruby/Ruby on Rails, JavaScript/HTML/CSS, full-stack web dev - no Python/research-computing overlap despite being at a university."
+    },
+    "oxford-robotics-research-software-systems-engineer-dsi275": {
+      "title": "Research Software and Systems Engineer",
+      "company": "University of Oxford (Oxford Robotics Institute)",
+      "url": "https://www.jobs.ac.uk/job/DSI275/research-software-and-systems-engineer",
+      "first_seen": "2026-07-30",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Fixed-term to Jun 2027, £39,424-£47,779, Oxford. Python overlap but core stack is CUDA/ROS/PyTorch/embedded hardware/robotics field deployment - a different specialism (robotics engineering), not computational geodynamics-adjacent."
+    },
+    "oxford-infrastructure-platform-engineer-dsd797": {
+      "title": "Infrastructure & Platform Engineer",
+      "company": "University of Oxford (Nuffield Dept of Population Health)",
+      "url": "https://www.jobs.ac.uk/job/DSD797/infrastructure-and-platform-engineer",
+      "first_seen": "2026-07-30",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Fixed-term to 2028, £39,424-£47,779, Oxford. Sysadmin/infrastructure engineering (TCP/IP networking, virtualisation/KVM, server ops) - different specialism from research software/data engineering."
+    },
+    "toshiba-bristol-principal-research-engineer-data-sharing": {
+      "title": "Principal Research Engineer / Research Fellow - Distributed Data Sharing and AI",
+      "company": "Toshiba Europe Limited (Bristol Research & Innovation Laboratory)",
+      "url": "https://www.jobs.ac.uk/job/DSE659/principal-research-engineer-research-fellow-distributed-data-sharing-and-ai-for-cross-sector-industrial-systems",
+      "first_seen": "2026-07-30",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "PERMANENT, industry (rare non-university employer), Bristol, competitive salary. SKIPPED: requires 'proposing EU-funded projects' - grant/proposal writing is a confirmed deal-breaker. Also Principal/Fellow-level (3-5+ years post-doc), and domain is digital twins/dataspaces/semantic web - a different specialism."
+    },
+    "liverpool-tropical-medicine-research-data-engineer-expired": {
+      "title": "Research Data Engineer (91325)",
+      "company": "Liverpool School of Tropical Medicine",
+      "url": "https://www.jobs.ac.uk/job/DSD940/research-data-engineer-91325",
+      "first_seen": "2026-07-30",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "EXPIRED - deadline was 20 Jul 2026, already passed. Genomics/bioinformatics domain, cloud-native pipelines - would have been worth evaluating if still open."
+    },
+    "rse-stale-ids-bath-ucl-senior-cardiff-maynooth-2026-08-01": {
+      "title": "Various RSE/Data Engineer roles (stale WebSearch-cached IDs, 2nd re-check)",
+      "company": "University of Bath (Data Engineer/RSE combo) / UCL (Senior RSE) / Cardiff University / Maynooth University",
+      "url": "https://www.jobs.ac.uk/job/DIW537 ; DMS852 ; DQB922 ; DLP908",
+      "first_seen": "2026-08-01",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "All four redirected to generic category search pages - stale cached IDs again. Checked Maynooth's live employer page directly: the 'Research Software Engineer' listing does not actually exist live - only an Assistant Professor/Lecturer in Computer Science teaching post is currently open there (not Andrea's track, different career path). Re-check Bath/UCL-Senior/Cardiff via live jobs.ac.uk search UI next time."
+    },
+    "ecm-cambridge-defence-cluster-2026-08-01": {
+      "title": "Systems Modelling Engineer / Senior Data Scientist Research Engineer / Radar roles (ECM Selection, Cambridge cluster)",
+      "company": "Various defence/security clients via ECM Selection recruiter",
+      "url": "https://www.ecmselection.co.uk/jobs/27645/systems-modelling-engineer ; https://www.ecmselection.co.uk/jobs/27540/senior-data-scientist-research-engineer",
+      "first_seen": "2026-08-01",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "IMPORTANT NEW DISQUALIFIER: Systems Modelling Engineer (£80k) explicitly requires 'UK national status... for security clearance eligibility' - Andrea is an Italian citizen, so despite full UK right-to-work via Global Talent Visa, defence-sector roles requiring security clearance are likely categorically excluded on nationality grounds (same category of issue as the Civil Service Nationality Rules exclusion already noted). Senior Data Scientist Research Engineer (RF/drone detection, £60-90k) was already filled, and RF/DSP/SDR domain is a separate large gap anyway. ECM Selection (ecmselection.co.uk) is a strong specialist recruiter for PhD-scientist-coder roles generally, but their live Cambridge listings skew heavily defence/RF - worth periodic re-checking for civilian roles (an earlier 'Numerical Modelling Developer' fluid-flow simulation posting was a strong non-defence match but had already been filled by the time found)."
+    },
+    "ecm-mathematical-modelling-developer-filled": {
+      "title": "Numerical Modelling Developer / Mathematical-Computational Modelling Developer (both FILLED)",
+      "company": "Engineering simulation software firms via ECM Selection, Cambridge",
+      "url": "https://www.ecmselection.co.uk/jobs/27396 ; https://www.ecmselection.co.uk/jobs/27224",
+      "first_seen": "2026-08-01",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "Both already marked FILLED. Would have been strong matches (PhD + numerical methods for ODEs/PDEs + Python/C++, civilian engineering simulation software, no defence/clearance issue) - confirms ECM Selection is a good source to keep checking for similar non-defence postings."
+    },
+    "generic-python-developer-broad-search-2026-08-01": {
+      "title": "Broad Python Developer / Quant Developer / Simulation Engineer search (no single standout)",
+      "company": "Various (general UK market scan)",
+      "url": "N/A - aggregate category search, no single posting",
+      "first_seen": "2026-08-01",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "Widened search per Andrea's explicit request to consider any job, not just RSE-titled roles. Generic 'Python Developer' market is mostly web/backend (Django/FastAPI/AWS) - not scientific computing. Quant Developer roles are almost all finance/trading despite exclusion terms. Simulation/Modelling Engineer roles (Formula E, Marshall aerospace) looked promising but both individual postings had expired. LIDA Data Scientist at University of Leeds (DRL503) re-checked again, still a stale/dead link redirecting to generic search."
+    },
+    "uol-lead-engineer-automation-ai-csuit1861": {
+      "title": "Lead Engineer: Automation & AI",
+      "company": "University of Leeds",
+      "url": "https://jobs.leeds.ac.uk/vacancy.aspx?ref=CSUIT1861",
+      "first_seen": "2026-08-01",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Permanent, Grade 8, £51,753-£59,966, Leeds hybrid, deadline 13 Aug 2026. Despite promising title, this is specifically Microsoft Power Platform (low-code/Power Automate/Power Apps) leadership - a different enterprise-IT skillset from Python/scientific computing. Also requires 'highly experienced' senior leadership - seniority mismatch too."
+    },
+    "uol-research-systems-adviser-cslib1500": {
+      "title": "Research Systems Adviser (Training and Engagement)",
+      "company": "University of Leeds (University Libraries)",
+      "url": "https://jobs.leeds.ac.uk/vacancy.aspx?ref=CSLIB1500",
+      "first_seen": "2026-08-01",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Fixed-term 12mo, Grade 7, £41,064-£48,822, Leeds hybrid, deadline 5 Aug 2026. Training/stakeholder engagement role for a library systems project (Symplectic, REF2029 compliance) - project coordination and training delivery, not software/technical development."
+    },
+    "uol-admissions-data-systems-manager-psadm1048": {
+      "title": "Admissions Operations Manager - Data and Systems",
+      "company": "University of Leeds",
+      "url": "https://jobs.leeds.ac.uk/vacancy.aspx?ref=PSADM1048",
+      "first_seen": "2026-08-01",
+      "fit": "low",
+      "status": "evaluated",
+      "notes": "Permanent, Grade 7, £41,064-£48,822, Leeds, deadline 7 Aug 2026. BI dashboards/data quality for student admissions - domain (student recruitment) has no connection to Andrea's background, and appears to be dashboard/reporting-tool-focused rather than Python/scientific computing."
+    },
+    "eth-zurich-rse-computational-mass-spec": {
+      "title": "Research Software Engineer for Computational Mass Spectrometry",
+      "company": "ETH Zurich / University of Zurich (Functional Genomics Center Zurich)",
+      "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_XKVARa7CiFpB6JFdRl",
+      "first_seen": "2026-08-01",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "Surfaced via jobs.ch live search as a current listing, but a cached academicpositions.ch mirror is dated 2023 - freshness unconfirmed, did not fully evaluate. If genuinely live: RSE title, reproducible data analysis, HPC, informatics/data science - strong title match, but proteomics/mass-spec domain is new. Worth re-checking jobs.ethz.ch directly for current status before investing more time. Switzerland is now an approved secondary relocation region (added 2026-07-30)."
+    },
+    "psi-scientific-computing-systems-engineer": {
+      "title": "Scientific Computing Systems Engineer",
+      "company": "Paul Scherrer Institut (PSI)",
+      "url": "unknown - not found via direct search, only referenced via jobs.ch aggregate listing",
+      "first_seen": "2026-08-01",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "PSI is a major Swiss multidisciplinary research institute (particle physics/materials science), HPC/Linux background mentioned. Could not locate the live posting directly - only appeared in a jobs.ch aggregate summary. Worth checking psi.ch careers page directly next time."
+    },
+    "switzerland-norway-generic-2026-08-01": {
+      "title": "Switzerland (jobs.ch) and Norway (jobbnorge.no) initial search - no standout match yet",
+      "company": "Various (ÖKK Holding, Consult & Pepper, Yousty, lastminute.com, Swisslinx - jobs.ch generic listings)",
+      "url": "https://www.jobs.ch/en/vacancies/?term=data+engineer ; https://www.jobbnorge.no/search/en",
+      "first_seen": "2026-08-01",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "First scrape pass on newly-added Switzerland/Norway sources. jobs.ch surfaced only generic corporate Data Engineer roles (no research/scientific angle, essential criteria unknown) - none individually fetched. site:jobbnorge.no search returned no matching indexed results at all - the site likely isn't well-indexed by search engines, same issue as Stantec/BGS career pages. Next time: use jobbnorge.no's and jobs.ch's own live search UI directly (site: operator search failed) rather than site: queries."
+    },
+    "rse-stale-ids-uwe-bristol-edinburgh-manchester-exeter-etc": {
+      "title": "Various RSE/Data Engineer roles (stale WebSearch-cached IDs)",
+      "company": "UWE Bristol / Manchester / Exeter (senior) / Oxford (RSE) / Exscientia / Energy Jobline",
+      "url": "https://www.jobs.ac.uk/job/DRB315 ; DEI932 ; DRQ224 ; DMY190 ; various LinkedIn expired redirects",
+      "first_seen": "2026-07-30",
+      "fit": "unknown",
+      "status": "skipped",
+      "notes": "All redirected to generic category search pages or 404'd/expired - stale cached IDs, same recurring WebSearch limitation. Re-search live via jobs.ac.uk's own search UI next time rather than cached individual URLs (this is what finally surfaced the live UCL/Exeter/Edinburgh results in this same run)."
+    }
+  }
+}

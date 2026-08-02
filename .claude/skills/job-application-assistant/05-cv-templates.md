@@ -6,15 +6,17 @@
 
 All CVs use the moderncv LaTeX package with the "banking" style and "blue" color scheme.
 
-**Output file:** `cv/main_<company>.tex`
+**Output file:** `cv/<company>/main_<company>.tex` - each application gets its own subfolder under `cv/` (e.g. `cv/bristol/main_bristol.tex`) to keep the directory navigable as applications accumulate. Create the subfolder if it doesn't exist yet.
 **Compile with:** **lualatex** on MiKTeX/TeX Live. pdflatex often fails on modern MiKTeX installs with `fontawesome5` font-expansion errors; lualatex handles the same sources cleanly.
-**Master reference:** `cv/main_example.tex` (comprehensive CV with all competencies, experience, and achievements - use as source when building targeted CVs)
+**Master reference:** `cv/main_example.tex` (comprehensive CV with all competencies, experience, and achievements - use as source when building targeted CVs). This one file stays at the `cv/` root, not in a subfolder.
 
 ### Compile command
 
 ```bash
-cd cv && lualatex -interaction=nonstopmode main_<company>.tex
+cd cv/<company> && lualatex -interaction=nonstopmode main_<company>.tex
 ```
+
+No relative asset paths are used in the CV template, so compiling directly from within the subfolder works with no path adjustments needed.
 
 Expected output: `Output written on main_<company>.pdf (2 pages, ...)`. Any page count other than 2 is a failure that must be fixed before presenting to the user.
 
@@ -50,7 +52,7 @@ Expected output: `Output written on main_<company>.pdf (2 pages, ...)`. Any page
 \address{[YOUR_ADDRESS]}{}{}
 \phone[mobile]{[YOUR_PHONE]}
 \email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub} \textbar{} UK Global Talent Visa -- no sponsorship required}
 
 \begin{document}
 \makecvtitle
@@ -65,6 +67,10 @@ Expected output: `Output written on main_<company>.pdf (2 pages, ...)`. Any page
 
 \end{document}
 ```
+
+### Visa status (mandatory)
+
+Andrea's Global Talent Visa means no UK employer needs to sponsor him, plus he has full EU/EEA working rights as an Italian citizen. This must always appear in the `\extrainfo{}` line (see above) so employers don't screen him out over an assumed sponsorship need. Never omit it when tailoring a CV for a new company.
 
 ### Color overrides
 
@@ -105,12 +111,14 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Data Scientist (Earth Sciences / Environmental) roles:**
+> Python developer and computational scientist with a PhD in Geodynamics and 10 years of experience in large-scale simulation, data analysis, and automated scientific workflows. Skilled in processing TB-scale datasets, optimising numerical software (up to 10× speedup), and building reproducible, tested pipelines on HPC clusters. Looking to bring deep scientific rigour and robust Python development skills to applied data science in industry.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Environmental Modeller roles:**
+> Computational geoscientist with a PhD in Geodynamics and a decade of experience developing and running large-scale numerical simulations of Earth processes. Expertise in Python-based data pipelines, 2D/3D visualisation, and cross-institutional scientific collaboration. Seeking to apply thermo-mechanical modelling and large-scale data analysis skills to industry challenges in environmental modelling and simulation.
+
+**For broad industry / general applications (sector-agnostic):**
+> Python developer and computational scientist with experience in large-scale data processing, numerical modelling, and automated analysis workflows. Skilled in optimising scientific software (up to 10× speed improvement) and managing TB-scale datasets using reproducible, tested pipelines.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.
