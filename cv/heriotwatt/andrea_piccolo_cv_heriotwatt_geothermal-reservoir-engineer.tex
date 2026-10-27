@@ -1,0 +1,162 @@
+%% Andrea Piccolo - CV
+%% Tailored for: Research Engineer, Geothermal Reservoir & Well Engineering
+%% TownRock Energy / Heriot-Watt University
+%%
+%% Compile with: lualatex andrea_piccolo_cv_heriotwatt_geothermal-reservoir-engineer.tex
+%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force both first and last name AND section headings to render in moderncv
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
+% looks inconsistent with the rest of the blue accent scheme.
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Andrea Piccolo - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.77]{geometry}
+\usepackage{needspace}
+\usepackage{import}
+
+% personal data
+\name{Andrea}{Piccolo}
+\address{Leeds, UK}{}{}
+\phone[mobile]{+44 7831 007579}
+\email{andreapiccolope@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/ap0889/}{LinkedIn}, \href{https://github.com/APiccolo89}{GitHub} \textbar{} UK Global Talent Visa -- no sponsorship required}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Computational geoscientist and Python/Julia developer with a PhD in Geodynamics and a decade of experience building coupled thermo-mechanical and basin-scale numerical models across four research institutions. Extended an open-source Julia modelling package to merge forward mechanical processes into basin forward modelling, and have built and optimised subsurface simulation software (FEniCSx, finite element/finite difference methods) achieving up to a 10\texttimes{} speedup. Looking to bring this coupled-physics modelling background and rapid uptake of new scientific software to reservoir and well engineering challenges in geothermal energy.}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Skills}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Coupled Subsurface Modelling}: Thermo-mechanical and basin forward modelling, merging mechanical processes into existing basin simulation codes, finite element/finite difference methods
+
+\item \textbf{Numerical Methods \& Simulation}: FEniCSx, model design and optimisation (up to 10\texttimes{} speedup), regression testing against benchmarks, reduced-order modelling from full 3D simulations
+
+\item \textbf{Scientific Python \& Julia Development}: NumPy, SciPy, pandas, h5py, Numba, pytest, Julia -- numerical modelling, data analysis, workflow automation
+
+\item \textbf{Large-Scale Data Processing}: TB-scale simulation dataset management (100+ TB processed, 30 TB condensed to 300 GB for public release), data exploration and visualisation, HPC clusters (SLURM, PBS)
+
+\item \textbf{Technical Writing \& Collaboration}: Peer-reviewed research output, cross-institutional collaboration (KIT Karlsruhe basin modelling group), conference presentations, teaching and supervision support
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2021--05/2024}{Research Fellow}{University of Bayreuth}{Bayreuth, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Extended an open-source basin modelling package in Julia, merging forward mechanical modelling into basin forward modelling to better capture subsurface deformation processes
+    \item Designed a 0D reduced-order model to predict full 3D simulation behaviour, then built an optimisation algorithm to recover the parameter combinations reproducing that output
+    \item Delivered publicly available databases: 30 TB of simulated data condensed into 300 GB of accessible outputs
+    \item Collaborated cross-institutionally with the KIT Karlsruhe basin modelling group, supplying new simulation data to support their research
+    \item Developed Python scripts for data cleaning, analysis, and visualisation to support project reporting
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{02/2025--Present}{Research Fellow}{University of Leeds}{Leeds, UK}{}{\vspace{1pt}
+\begin{itemize}
+    \item Developed a numerical software package using FEniCSx and Python; optimised a pre-existing package achieving a 10\texttimes{} speedup
+    \item Extended physical laws within the model to test novel geodynamic hypotheses, requiring rapid uptake of new domain-specific numerical software
+    \item Built automated workflows to run simulations, process outputs, and analyse large datasets
+    \item Integrated regression tests to validate the numerical simulation against benchmarks
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2015--07/2021}{Research Fellow}{Johannes Gutenberg Universität Mainz}{Mainz, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Incorporated chemical modelling into large-scale 3D numerical code, coupling additional physical processes into an existing simulation framework
+    \item Generated and processed large-scale simulation datasets (100+ TB processed); developed 2D/3D visualisation tools to identify physical trends
+    \item Presented results at international conferences; supported supervision and teaching activities
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2015--05/2019}{PhD in Computational Geodynamics}{Johannes Gutenberg Universität Mainz}{Mainz, Germany}{}{\vspace{1pt}
+Thesis: ``Continental crust production during the early Earth: Constraints from geodynamic models.'' Numerical modelling and thermo-mechanical simulation of large-scale Earth processes.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{10/2012--03/2015}{MSc in Geology and Technical Geology}{University of Padua}{Padua, Italy}{}{\vspace{1pt}
+Data analysis (chemical, petrological, stratigraphical), numerical modelling, scientific communication, field data acquisition.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{10/2008--03/2012}{BSc in Earth Sciences}{University of Padua}{Padua, Italy}{}{\vspace{1pt}
+Data analysis, MATLAB, field data acquisition.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item Italian (native), English (C1), German (B1).
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item Prof.\ Dr.\ Timothy J.\ Craig --- University of Leeds (\href{mailto:T.J.Craig@leeds.ac.uk}{T.J.Craig@leeds.ac.uk})
+\item Prof.\ Dr.\ Marcell Thielmann --- University of Bonn (\href{mailto:thielmann@geo.uni-bonn.de}{thielmann@geo.uni-bonn.de})
+\item Prof.\ Dr.\ Nevena Andric Tomasevic --- KIT Karlsruhe (\href{mailto:nevena.tomasevic@kit.edu}{nevena.tomasevic@kit.edu})
+\item Dr.\ Arne Spang --- University of Bayreuth (\href{mailto:arne.spang@uni-bayreuth.de}{arne.spang@uni-bayreuth.de})
+\end{itemize}
+
+\end{document}

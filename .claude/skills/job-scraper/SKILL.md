@@ -40,7 +40,7 @@ If the user specified a focus area (e.g. "data science"), prioritize queries fro
 
 For each search:
 - Use `WebSearch` with site-specific queries (jobindex.dk, linkedin.com/jobs, karriere.dk, etc.)
-- Target your configured geographic area
+- Target your configured geographic area (see the SCRAPE SCOPE line in `search-queries.md`: UK, Netherlands, Germany, Switzerland only)
 - Look for postings from the last 14 days
 
 ### Step 2: Fetch & Parse

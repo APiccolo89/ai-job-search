@@ -1,0 +1,187 @@
+%% Andrea Piccolo - CV
+%% Tailored for: Software Engineer - Simulation Platform, Proxima Fusion, Munich
+%%
+%% Compile with: lualatex andrea_piccolo_cv_proximafusion_software-engineer-simulation-platform.tex
+%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force both first and last name AND section headings to render in moderncv
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
+% looks inconsistent with the rest of the blue accent scheme.
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Andrea Piccolo - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.77]{geometry}
+\usepackage{needspace}
+\usepackage{import}
+\hyphenation{FEniCSx StonedFEniCSx MATLAB}
+
+% personal data
+\name{Andrea}{Piccolo}
+\address{Leeds, UK}{}{}
+\phone[mobile]{+44 7831 007579}
+\email{andreapiccolope@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/ap0889/}{LinkedIn}, \href{https://github.com/APiccolo89}{GitHub} \textbar{} Italian citizen -- full EU work rights, no permit required}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Research software engineer with a PhD in Computational Geodynamics and ten years building simulation software in Python, Julia, and C. Writes Python libraries that automate simulation workflows end to end: setting up models, running campaigns on HPC clusters, and processing, storing, and visualising the output. Tests and documents the tools so other researchers can use them, and supports the people who do.}
+
+% ============================================================
+%     SKILLS
+% ============================================================
+
+\section{Skills}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Python \& Scientific Software}: Object-oriented Python (NumPy, SciPy, pandas, Matplotlib, h5py, Numba, FEniCSx); dataclass-based configuration, YAML input, pip-installable packaging (pyproject); Julia, C, MATLAB
+
+\item \textbf{Simulation Workflows \& Data}: Automated pipelines for simulation campaigns, post-processing, and analysis; HPC clusters (SLURM, PBS); MPI-parallel FEM (FEniCSx/PETSc); TB-scale data processing; built public databases (20 TB condensed to 200 GB); HDF5; SQL (learning)
+
+\item \textbf{Numerical Methods}: Finite element and finite difference methods; coupled thermo-mechanical models with non-linear material laws; reduced-order models and parameter optimisation; validation against benchmarks
+
+\item \textbf{Software Quality}: Git, GitHub Actions (CI), pytest with Codecov coverage, regression tests, Sphinx documentation on GitHub Pages, reproducible environments (venv/conda)
+
+\item \textbf{AI-Assisted Development}: Daily use of Claude Code as an agentic coding assistant for scientific software development, test writing, and debugging
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{02/2025--Present}{Research Fellow}{University of Leeds}{Leeds, UK}{}{\vspace{1pt}
+\begin{itemize}
+    \item Built \href{https://github.com/APiccolo89/StonedFenicsx}{StonedFEniCSx}, an open-source FEniCSx package for coupled thermal and Stokes modelling of subduction zones, growing it from a single script into an object-oriented package: problem and solver class hierarchies, dataclass configuration, YAML input, pip-installable layout
+    \item Set up CI with GitHub Actions: pytest suite with Codecov coverage, regression tests against the van Keken et al.\ subduction benchmarks, and Sphinx documentation built and deployed to GitHub Pages
+    \item Implemented new physics: temperature- and pressure-dependent non-linear rheology (diffusion and dislocation creep) and shear heating, to test new geodynamic hypotheses
+    \item Built automated Python workflows to run simulation campaigns, post-process outputs, and analyse and plot large datasets
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2021--05/2024}{Research Fellow}{University of Bayreuth}{Bayreuth, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Extended an open-source Julia package, coupling forward mechanical modelling with basin modelling
+    \item Designed a 0D reduced-order model predicting full 3D simulation behaviour, and an optimisation algorithm that recovers the parameter combinations matching 2D experimental data
+    \item Delivered public databases: 20 TB of simulated data condensed into 200 GB of accessible outputs
+    \item Wrote Python tools for data cleaning, analysis, and visualisation used in project reporting
+    \item Supplied simulation data and user support to the KIT Karlsruhe basin modelling group
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2015--07/2021}{Research Fellow}{Johannes Gutenberg Universität Mainz}{Mainz, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Incorporated chemical modelling into a large-scale 3D numerical code (\href{https://github.com/UniMainzGeo/LaMEM}{LaMEM})
+    \item Generated and processed 100+ TB of simulation data; developed 2D/3D visualisation tools to identify physical trends
+    \item Presented results at international conferences; supported supervision and teaching of students
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2015--05/2019}{PhD in Computational Geodynamics}{Johannes Gutenberg Universität Mainz}{Mainz, Germany}{}{\vspace{1pt}
+Thesis: ``Continental crust production during the early Earth: Constraints from geodynamic models.'' Thermo-mechanical numerical modelling, data analysis, CI.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{10/2012--03/2015}{MSc in Geology and Technical Geology}{University of Padua}{Padua, Italy}{}{\vspace{1pt}
+Data analysis (chemical, petrological, stratigraphical), numerical modelling, scientific communication, field data acquisition.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{10/2008--03/2012}{BSc in Earth Sciences}{University of Padua}{Padua, Italy}{}{\vspace{1pt}
+Data analysis, MATLAB, field data acquisition.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     REPOSITORIES & SELECTED PUBLICATIONS
+% ============================================================
+
+\section{Repositories}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{Author:} \href{https://github.com/APiccolo89/StonedFenicsx}{StonedFEniCSx} \textbar{} \textbf{Contributor:} \href{https://github.com/UniMainzGeo/LaMEM}{LaMEM}, \href{https://github.com/JuliaGeodynamics/GeophysicalModelGenerator.jl}{GeophysicalModelGenerator.jl}, \href{https://bitbucket.org/bkaus/mvep2/}{MVEP2}
+\end{itemize}
+
+\needspace{5\baselineskip}
+\section{Selected Publications}
+\vspace{1pt}
+{\small
+\begin{itemize}
+\item \textbf{Piccolo, A.}, Spang, A., et al.\ (2026). The dynamics and surface signal of slab break-off in continental settings: Insights from 3D numerical modeling. \textit{JGR: Solid Earth}, 131(5).
+\item \textbf{Piccolo, A.}, Kaus, B.\,J., et al.\ (2020). Plume--lid interactions during the Archean and implications for the generation of early continental terranes. \textit{Gondwana Research}, 88, 150--168.
+\item \textbf{Piccolo, A.}, Palin, R.\,M., et al.\ (2019). Generation of Earth's early continents from a relatively cool Archean mantle. \textit{Geochem., Geophys., Geosyst.}, 20(4), 1679--1697.
+\item \textbf{Piccolo, A.}, Faccenda, M., et al.\ (2018). Crustal strength control on structures and metamorphism in collisional orogens. \textit{Tectonophysics}, 746, 470--492.
+\item Spang, A., \textbf{Piccolo, A.}, et al.\ (2026). Implications of thermal weakening and magma compressibility for volcano monitoring. \textit{JGR: Solid Earth}, 131.
+\item Eskens, L.\,H.\,J., \textbf{Piccolo, A.}, et al.\ (2025). The tectonostratigraphic expression of slab breakoff in foreland basins: insights from 2D forward stratigraphic modeling. \textit{Tectonics}, 44(7).
+\item Kaus, B.\,J., \ldots, \textbf{Piccolo, A.}, et al.\ (2024). GeophysicalModelGenerator.jl: A Julia package to visualise geoscientific data and create numerical model setups. \textit{Journal of Open Source Software}, 9(103), 6763.
+\item[] 5 further co-authored papers (2022--2026); full list on request.
+\end{itemize}}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item Italian (native), English (C1), German (B1).
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item Prof.\ Dr.\ Timothy J.\ Craig --- University of Leeds (\href{mailto:T.J.Craig@leeds.ac.uk}{T.J.Craig@leeds.ac.uk})
+\item Prof.\ Dr.\ Marcell Thielmann --- University of Bonn (\href{mailto:thielmann@geo.uni-bonn.de}{thielmann@geo.uni-bonn.de})
+\item Prof.\ Dr.\ Nevena Andri\'c Toma\v{s}evi\'c --- KIT Karlsruhe (\href{mailto:nevena.tomasevic@kit.edu}{nevena.tomasevic@kit.edu})
+\item Dr.\ Arne Spang --- University of Bayreuth (\href{mailto:arne.spang@uni-bayreuth.de}{arne.spang@uni-bayreuth.de})
+\end{itemize}
+
+\end{document}

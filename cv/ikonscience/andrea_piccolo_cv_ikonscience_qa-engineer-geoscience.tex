@@ -1,0 +1,160 @@
+%% Andrea Piccolo - CV
+%% Tailored for: QA Engineer (Geoscience), Ikon Science
+%%
+%% Compile with: lualatex andrea_piccolo_cv_ikonscience_qa-engineer-geoscience.tex
+%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force both first and last name AND section headings to render in moderncv
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
+% looks inconsistent with the rest of the blue accent scheme.
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Andrea Piccolo - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.77]{geometry}
+\usepackage{needspace}
+\usepackage{import}
+
+% personal data
+\name{Andrea}{Piccolo}
+\address{Leeds, UK}{}{}
+\phone[mobile]{+44 7831 007579}
+\email{andreapiccolope@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/ap0889/}{LinkedIn}, \href{https://github.com/APiccolo89}{GitHub} \textbar{} UK Global Talent Visa -- no sponsorship required}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Computational geoscientist and Python developer with a PhD in Geodynamics and a decade of experience building, testing, and validating numerical geoscience software across three research institutions. Have integrated automated regression test suites to catch correctness defects in simulation code before release, debugged large-scale scientific software, and documented workflows for cross-institutional collaborators. Looking to bring this geoscience domain background and disciplined testing practice to quality assurance for commercial geoscience software.}
+
+% ============================================================
+%     SKILLS
+% ============================================================
+
+\section{Skills}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Software Testing \& Quality}: Integrated automated regression test suites (pytest) validating numerical simulation output against benchmarks; debugged and diagnosed defects across large scientific Python codebases, documenting findings in structured written reports for reproducibility; working understanding of the software development lifecycle through iterative development, code review, and CI/CD
+
+\item \textbf{Geoscience Domain Expertise}: PhD in Computational Geodynamics, MSc in Geology; a decade of hands-on work with subsurface and basin-scale numerical modelling, giving direct domain fluency for validating geoscience software
+
+\item \textbf{Programming \& Platforms}: Python (NumPy, SciPy, pandas, pytest), Julia, C; developed and debugged scientific software on Linux HPC clusters (SLURM, PBS); day-to-day comfort with Windows desktop environments
+
+\item \textbf{Documentation \& Communication}: Technical documentation (Sphinx, LaTeX), version control (Git, GitHub Actions), presenting technical results to international audiences, cross-institutional collaboration
+
+\item \textbf{AI-Assisted Development}: Daily use of Claude Code as an agentic coding assistant for scientific software development, test writing, and debugging
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{02/2025--Present}{Research Fellow}{University of Leeds}{Leeds, UK}{}{\vspace{1pt}
+\begin{itemize}
+    \item Integrated automated regression test suites (pytest) to validate numerical simulation output against benchmarks, catching correctness defects before release
+    \item Developed a numerical software package using FEniCSx and Python; optimised a pre-existing package achieving a 10\texttimes{} speedup
+    \item Built automated workflows to run simulations, process outputs, and analyse large datasets
+    \item Diagnosed and resolved defects across a large Python codebase, managing the work independently from design through documentation and reporting
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2021--05/2024}{Research Fellow}{University of Bayreuth}{Bayreuth, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Improved numerical stability and workflow reliability through ongoing modelling code development and debugging
+    \item Extended an open-source Julia basin modelling package, merging forward mechanical modelling into basin forward simulation
+    \item Delivered publicly available databases: 30 TB of simulated data condensed into 300 GB of accessible outputs
+    \item Collaborated cross-institutionally with the KIT Karlsruhe basin modelling group, supplying new simulation data to support their research
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2015--07/2021}{Research Fellow}{Johannes Gutenberg Universität Mainz}{Mainz, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Generated and processed large-scale simulation datasets (100+ TB processed); developed 2D/3D visualisation tools to identify physical trends
+    \item Incorporated chemical modelling into large-scale 3D numerical code, coupling additional physical processes into an existing simulation framework
+    \item Presented results at international conferences; supported supervision and teaching activities
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2015--05/2019}{PhD in Computational Geodynamics}{Johannes Gutenberg Universität Mainz}{Mainz, Germany}{}{\vspace{1pt}
+Thesis: ``Continental crust production during the early Earth: Constraints from geodynamic models.'' Numerical modelling and thermo-mechanical simulation of large-scale Earth processes.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{10/2012--03/2015}{MSc in Geology and Technical Geology}{University of Padua}{Padua, Italy}{}{\vspace{1pt}
+Data analysis (chemical, petrological, stratigraphical), numerical modelling, scientific communication, field data acquisition.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{10/2008--03/2012}{BSc in Earth Sciences}{University of Padua}{Padua, Italy}{}{\vspace{1pt}
+Data analysis, MATLAB, field data acquisition.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item Italian (native), English (C1), German (B1).
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item Prof.\ Dr.\ Timothy J.\ Craig --- University of Leeds (\href{mailto:T.J.Craig@leeds.ac.uk}{T.J.Craig@leeds.ac.uk})
+\item Prof.\ Dr.\ Marcell Thielmann --- University of Bonn (\href{mailto:thielmann@geo.uni-bonn.de}{thielmann@geo.uni-bonn.de})
+\item Prof.\ Dr.\ Nevena Andric Tomasevic --- KIT Karlsruhe (\href{mailto:nevena.tomasevic@kit.edu}{nevena.tomasevic@kit.edu})
+\item Dr.\ Arne Spang --- University of Bayreuth (\href{mailto:arne.spang@uni-bayreuth.de}{arne.spang@uni-bayreuth.de})
+\end{itemize}
+
+\end{document}

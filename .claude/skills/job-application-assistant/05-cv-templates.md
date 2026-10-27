@@ -6,19 +6,19 @@
 
 All CVs use the moderncv LaTeX package with the "banking" style and "blue" color scheme.
 
-**Output file:** `cv/<company>/main_<company>.tex` - each application gets its own subfolder under `cv/` (e.g. `cv/bristol/main_bristol.tex`) to keep the directory navigable as applications accumulate. Create the subfolder if it doesn't exist yet.
+**Output file:** `cv/<company>/andrea_piccolo_cv_<acronym>_<position>.tex` - each application gets its own subfolder under `cv/` (e.g. `cv/skao/andrea_piccolo_cv_skao_data-processing-software-engineer.tex`) to keep the directory navigable as applications accumulate. `<acronym>` is the company's short name/acronym (lowercase, matches the folder name), `<position>` is the role in kebab-case. Create the subfolder if it doesn't exist yet.
 **Compile with:** **lualatex** on MiKTeX/TeX Live. pdflatex often fails on modern MiKTeX installs with `fontawesome5` font-expansion errors; lualatex handles the same sources cleanly.
 **Master reference:** `cv/main_example.tex` (comprehensive CV with all competencies, experience, and achievements - use as source when building targeted CVs). This one file stays at the `cv/` root, not in a subfolder.
 
 ### Compile command
 
 ```bash
-cd cv/<company> && lualatex -interaction=nonstopmode main_<company>.tex
+cd cv/<company> && lualatex -interaction=nonstopmode andrea_piccolo_cv_<acronym>_<position>.tex
 ```
 
 No relative asset paths are used in the CV template, so compiling directly from within the subfolder works with no path adjustments needed.
 
-Expected output: `Output written on main_<company>.pdf (2 pages, ...)`. Any page count other than 2 is a failure that must be fixed before presenting to the user.
+Expected output: `Output written on andrea_piccolo_cv_<acronym>_<position>.pdf (2 pages, ...)`. Any page count other than 2 is a failure that must be fixed before presenting to the user.
 
 ## Document Structure
 

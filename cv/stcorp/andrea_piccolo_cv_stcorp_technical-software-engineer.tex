@@ -1,0 +1,181 @@
+%% Andrea Piccolo - CV
+%% Tailored for: Technical Software Engineer, S[&]T High-Tech Consulting, Delft
+%%
+%% Compile with: lualatex andrea_piccolo_cv_stcorp_technical-software-engineer.tex
+%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force both first and last name AND section headings to render in moderncv
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
+% looks inconsistent with the rest of the blue accent scheme.
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Andrea Piccolo - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.77]{geometry}
+\usepackage{needspace}
+\usepackage{import}
+\hyphenation{FEniCSx StonedFEniCSx}
+
+% personal data
+\name{Andrea}{Piccolo}
+\address{Leeds, UK}{}{}
+\phone[mobile]{+44 7831 007579}
+\email{andreapiccolope@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/ap0889/}{LinkedIn}, \href{https://github.com/APiccolo89}{GitHub} \textbar{} Italian citizen -- EU work rights, no permit needed}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Scientific software engineer with a PhD in Computational Geodynamics and ten years writing numerical software in Python, Julia and C on Linux and HPC clusters. Builds tested, documented packages from research prototypes, most recently StonedFEniCSx, an open-source FEM package with CI, regression tests and Sphinx documentation. Optimised an existing scientific package by 10\texttimes{} and condensed 20 TB of simulation output into 200 GB of public databases used by other groups.}
+
+% ============================================================
+%     SKILLS
+% ============================================================
+
+\section{Skills}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Software Development}: Object-oriented Python (NumPy, SciPy, pandas, h5py, Numba, FEniCSx), Julia, C, MATLAB; turning research scripts into maintainable packages (class hierarchies, dataclass configuration, YAML input, pyproject packaging)
+
+\item \textbf{Testing, Review \& Documentation}: pytest with Codecov coverage, regression tests against published benchmarks, GitHub Actions CI, pull-request workflow in shared open-source codebases, Sphinx documentation deployed to GitHub Pages
+
+\item \textbf{Data Processing \& Optimisation}: 10\texttimes{} speedup of an existing scientific package; 100+ TB of simulation data processed; automated pipelines for running, post-processing and analysing simulations; 2D/3D visualisation tools
+
+\item \textbf{Linux \& HPC}: Daily Linux work on HPC clusters (SLURM, PBS), MPI-parallel FEM (FEniCSx/PETSc), reproducible environments (venv/conda), Git; SQL (learning)
+
+\item \textbf{Collaboration}: Cross-institutional projects (Mainz, Bayreuth, KIT Karlsruhe, Leeds); supplying data, tools and support to partner groups; conference presentations; supervision and teaching
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{02/2025--Present}{Research Fellow}{University of Leeds}{Leeds, UK}{}{\vspace{1pt}
+\begin{itemize}
+    \item Built \href{https://github.com/APiccolo89/StonedFenicsx}{StonedFEniCSx}, an open-source FEniCSx package for coupled thermal and Stokes modelling, growing it from a single script into an object-oriented, pip-installable package: problem and solver class hierarchies, dataclass configuration, YAML input
+    \item Set up CI with GitHub Actions: pytest suite with Codecov coverage, regression tests against the van Keken et al.\ benchmarks, and Sphinx documentation built and deployed to GitHub Pages
+    \item Optimised a pre-existing numerical package, achieving a 10\texttimes{} speedup
+    \item Built automated workflows to run simulations, post-process outputs and analyse large datasets; MPI-parallel runs through FEniCSx/PETSc
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{11/2021--05/2024}{Research Fellow}{University of Bayreuth}{Bayreuth, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Extended an open-source Julia package, coupling forward mechanical modelling with basin modelling
+    \item Delivered public databases: 20 TB of simulated data condensed into 200 GB of accessible outputs
+    \item Designed a 0D reduced-order model predicting 3D simulation behaviour, plus an optimisation algorithm recovering parameter combinations that match experimental data
+    \item Supplied simulation data, Python tools and support to the KIT Karlsruhe basin modelling group
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{6\baselineskip}
+\item{\cventry{11/2015--07/2021}{Research Fellow}{Johannes Gutenberg Universität Mainz}{Mainz, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Incorporated chemical modelling into a large-scale 3D parallel numerical code (\href{https://github.com/UniMainzGeo/LaMEM}{LaMEM}, C)
+    \item Generated and processed 100+ TB of simulation data on HPC clusters; developed 2D/3D visualisation tools
+    \item Presented results at international conferences; supported supervision and teaching
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2015--05/2019}{PhD in Computational Geodynamics}{Johannes Gutenberg Universität Mainz}{Mainz, Germany}{}{\vspace{1pt}
+Thermo-mechanical numerical modelling, large-scale data analysis, CI.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{10/2012--03/2015}{MSc in Geology and Technical Geology}{University of Padua}{Padua, Italy}{}{\vspace{1pt}
+Data analysis, numerical modelling, scientific communication.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{10/2008--03/2012}{BSc in Earth Sciences}{University of Padua}{Padua, Italy}{}{\vspace{1pt}
+Data analysis, MATLAB.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     REPOSITORIES & SELECTED PUBLICATIONS
+% ============================================================
+
+\section{Repositories}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{Author:} \href{https://github.com/APiccolo89/StonedFenicsx}{StonedFEniCSx} \textbar{} \textbf{Contributor:} \href{https://github.com/UniMainzGeo/LaMEM}{LaMEM}, \href{https://github.com/JuliaGeodynamics/GeophysicalModelGenerator.jl}{GeophysicalModelGenerator.jl}, \href{https://bitbucket.org/bkaus/mvep2/}{MVEP2}
+\end{itemize}
+
+\needspace{5\baselineskip}
+\section{Selected Publications}
+\vspace{1pt}
+{\small
+\begin{itemize}
+\item Kaus, B.\,J., \ldots, \textbf{Piccolo, A.}, et al.\ (2024). GeophysicalModelGenerator.jl: A Julia package to visualise geoscientific data and create numerical model setups. \textit{Journal of Open Source Software}, 9(103), 6763.
+\item \textbf{Piccolo, A.}, Spang, A., et al.\ (2026). The dynamics and surface signal of slab break-off in continental settings: Insights from 3D numerical modeling. \textit{JGR: Solid Earth}, 131(5).
+\item \textbf{Piccolo, A.}, Palin, R.\,M., et al.\ (2019). Generation of Earth's early continents from a relatively cool Archean mantle. \textit{Geochem., Geophys., Geosyst.}, 20(4), 1679--1697.
+\item[] 9 further peer-reviewed papers (2018--2026); full list on request.
+\end{itemize}}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item Italian (native), English (C1), German (B1).
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item Prof.\ Dr.\ Timothy J.\ Craig --- University of Leeds (\href{mailto:T.J.Craig@leeds.ac.uk}{T.J.Craig@leeds.ac.uk})
+\item Prof.\ Dr.\ Marcell Thielmann --- University of Bonn (\href{mailto:thielmann@geo.uni-bonn.de}{thielmann@geo.uni-bonn.de})
+\item Prof.\ Dr.\ Nevena Andri\'c Toma\v{s}evi\'c --- KIT Karlsruhe (\href{mailto:nevena.tomasevic@kit.edu}{nevena.tomasevic@kit.edu})
+\item Dr.\ Arne Spang --- University of Bayreuth (\href{mailto:arne.spang@uni-bayreuth.de}{arne.spang@uni-bayreuth.de})
+\end{itemize}
+
+\end{document}

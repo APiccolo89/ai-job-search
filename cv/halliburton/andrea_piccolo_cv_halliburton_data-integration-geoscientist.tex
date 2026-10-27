@@ -1,0 +1,159 @@
+%% Andrea Piccolo - CV tailored for Halliburton Landmark (Data Integration Geoscientist)
+%%
+%% Compile with: lualatex main_halliburton.tex
+%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force both first and last name AND section headings to render in moderncv
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
+% looks inconsistent with the rest of the blue accent scheme.
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Andrea Piccolo - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.77]{geometry}
+\usepackage{needspace}
+\usepackage{import}
+
+% personal data
+\name{Andrea}{Piccolo}
+\address{Leeds, UK}{}{}
+\phone[mobile]{+44 7831 007579}
+\email{andreapiccolope@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/ap0889/}{LinkedIn}, \href{https://github.com/APiccolo89}{GitHub} \textbar{} UK Global Talent Visa -- no sponsorship required}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Computational geoscientist with a PhD in Computational Geodynamics and a decade of experience combining geoscience domain knowledge with Python-based data engineering and numerical modelling. Condensed 30 TB of simulated geoscientific data into a curated, publicly accessible 300 GB database and optimised numerical software to a 10\texttimes{} speedup, working across research institutions in Germany and the UK.}
+
+% ============================================================
+%     SKILLS
+% ============================================================
+
+\section{Skills}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Geoscience Domain Expertise}: Stratigraphy, petrology, structural geology and geochemistry (MSc/BSc training); crustal mechanics and geomechanical modelling from a decade of computational geodynamics research
+
+\item \textbf{Python \& ETL Pipelines}: NumPy, SciPy, pandas, h5py, Numba, pytest — building automated ETL workflows that clean, structure, and curate large geoscientific datasets for reliable downstream use
+
+\item \textbf{Geomechanical Modelling}: Forward mechanical modelling contributed to an open-source basin modelling package (Julia), thermo-mechanical and finite element modelling (FEniCSx), physical process coupling within large-scale 3D numerical codes
+
+\item \textbf{Data Engineering at Scale}: TB-scale dataset condensation and curation (30 TB to 300 GB public databases), 100+ TB simulation data processing, developing relational database and SQL skills
+
+\item \textbf{Software Engineering \& Collaboration}: Git, GitHub Actions (CI/CD), regression testing, cross-institutional collaboration, communicating technical results to varied technical audiences
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{02/2025--Present}{Research Fellow}{University of Leeds}{Leeds, UK}{}{\vspace{1pt}
+\begin{itemize}
+    \item Developed a numerical software package using FEniCSx and Python; optimised a pre-existing package achieving a 10\texttimes{} speedup
+    \item Built automated ETL workflows to run simulations, process outputs, and analyse large geoscientific datasets
+    \item Integrated regression tests to validate numerical simulation results against benchmarks
+    \item Managed the full analytical workflow independently, from model design to documentation and reporting
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2021--05/2024}{Research Fellow}{University of Bayreuth}{Bayreuth, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Extended an open-source modelling package in Julia; merged forward mechanical modelling into basin modelling
+    \item Delivered publicly available databases: 30 TB of simulated data condensed and curated into 300 GB of accessible outputs
+    \item Developed Python ETL scripts for data cleaning, structuring, and visualisation to support project reporting
+    \item Cross-institutional collaboration with the KIT Karlsruhe basin modelling group, translating partner data requirements into shared workflows
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2015--07/2021}{Research Fellow}{Johannes Gutenberg Universität Mainz}{Mainz, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Incorporated chemical modelling into a large-scale 3D numerical code
+    \item Generated and processed 100+ TB of simulation data; developed 2D/3D visualisation tools
+    \item Presented results at international conferences; supported supervision and teaching activities
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2015--05/2019}{PhD in Computational Geodynamics}{Johannes Gutenberg Universität Mainz}{Mainz, Germany}{}{\vspace{1pt}
+Thesis: ``Continental crust production during the early Earth: Constraints from geodynamic models.''
+}}
+
+\vspace{3pt}
+
+\item{\cventry{10/2012--03/2015}{MSc in Geology and Technical Geology}{University of Padua}{Padua, Italy}{}{\vspace{1pt}
+Data analysis (chemical, petrological, stratigraphical), numerical modelling, scientific communication, field data acquisition.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{10/2008--03/2012}{BSc in Earth Sciences}{University of Padua}{Padua, Italy}{}{\vspace{1pt}
+Data analysis, MATLAB, field data acquisition.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item Italian (native), English (C1), German (B1).
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item Prof.\ Dr.\ Timothy J.\ Craig --- University of Leeds (\href{mailto:T.J.Craig@leeds.ac.uk}{T.J.Craig@leeds.ac.uk})
+\item Prof.\ Dr.\ Marcell Thielmann --- University of Bonn (\href{mailto:thielmann@geo.uni-bonn.de}{thielmann@geo.uni-bonn.de})
+\item Prof.\ Dr.\ Nevena Andric Tomasevic --- KIT Karlsruhe (\href{mailto:nevena.tomasevic@kit.edu}{nevena.tomasevic@kit.edu})
+\item Dr.\ Arne Spang --- University of Bayreuth (\href{mailto:arne.spang@uni-bayreuth.de}{arne.spang@uni-bayreuth.de})
+\end{itemize}
+
+\end{document}

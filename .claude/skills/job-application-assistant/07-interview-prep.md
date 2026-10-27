@@ -22,12 +22,12 @@ These are strong examples from Andrea's experience. Flesh out the S/T/A/R detail
 
 ---
 
-### 2. 30 TB → 300 GB public database delivery (Bayreuth)
+### 2. 20 TB → 200 GB public database delivery (Bayreuth)
 **Source:** CV — Research Fellow, University of Bayreuth (11/2021–05/2024)
-**What happened:** Condensed 30 TB of raw simulation data into a 300 GB publicly available database.
+**What happened:** Condensed 20 TB of raw simulation data into a 200 GB publicly available database.
 **Why it matters:** Answers "data engineering", "delivering outputs for others", "managing large datasets", "end-to-end ownership"
 **S/T/A/R stub:**
-- Situation: Project generated 30 TB of simulation data that needed to be made publicly accessible and usable
+- Situation: Project generated 20 TB of simulation data that needed to be made publicly accessible and usable
 - Task: Design and deliver a compressed, well-documented public dataset
 - Action: [What decisions did you make about format, compression, schema, documentation?]
 - Result: Publicly available database — who uses it? How was it received?

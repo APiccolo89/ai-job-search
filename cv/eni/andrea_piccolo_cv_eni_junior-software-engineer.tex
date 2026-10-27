@@ -1,0 +1,187 @@
+%% Andrea Piccolo - CV (italiano)
+%% Tailored for: Junior Software Engineer, Eniquantic (Eni), San Donato Milanese
+%%
+%% Compile with: lualatex andrea_piccolo_cv_eni_junior-software-engineer.tex
+%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force both first and last name AND section headings to render in moderncv
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
+% looks inconsistent with the rest of the blue accent scheme.
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Andrea Piccolo - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.77]{geometry}
+\usepackage{needspace}
+\usepackage{import}
+\hyphenation{FEniCSx StonedFEniCSx}
+
+% personal data
+\name{Andrea}{Piccolo}
+\address{Leeds, UK}{}{}
+\phone[mobile]{+44 7831 007579}
+\email{andreapiccolope@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/ap0889/}{LinkedIn}, \href{https://github.com/APiccolo89}{GitHub} \textbar{} Cittadino italiano}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILO
+% ============================================================
+
+\vspace{6pt}
+\small{Sviluppatore di software scientifico in Python, con dottorato in geodinamica computazionale e dieci anni di lavoro su codici numerici e dati di simulazione. Scrivo software per produrre, elaborare e visualizzare grandi quantità di dati (oltre 100 TB), lo testo in modo automatico e lo rendo utilizzabile da altri. Lavoro quotidianamente in ambiente Linux su cluster HPC. Cerco il primo ruolo in industria in un team di ingegneri del software.}
+
+% ============================================================
+%     COMPETENZE
+% ============================================================
+
+\section{Competenze}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Python scientifico}: NumPy, SciPy, Matplotlib, pandas, h5py, Numba, FEniCSx; programmazione orientata agli oggetti, packaging (pyproject), ambienti riproducibili (venv/conda)
+
+\item \textbf{Elaborazione e visualizzazione dati}: pipeline automatiche per l'elaborazione di dataset da TB; strumenti di visualizzazione 2D/3D; database pubblici (20 TB di dati condensati in 200 GB); SQL (in apprendimento)
+
+\item \textbf{Altri linguaggi}: C, Julia, MATLAB
+
+\item \textbf{Qualità del software}: Git, GitHub Actions (CI), pytest con copertura Codecov, test di regressione su benchmark, documentazione con Sphinx su GitHub Pages
+
+\item \textbf{Sistemi operativi e calcolo parallelo}: Linux (uso quotidiano, cluster SLURM e PBS) e Windows; calcolo parallelo MPI (FEniCSx/PETSc); campagne di simulazione su larga scala
+
+\end{itemize}
+
+% ============================================================
+%     ESPERIENZA PROFESSIONALE
+% ============================================================
+
+\section{Esperienza professionale}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{02/2025--oggi}{Research Fellow}{University of Leeds}{Leeds, UK}{}{\vspace{1pt}
+\begin{itemize}
+    \item Sviluppato \href{https://github.com/APiccolo89/StonedFenicsx}{StonedFEniCSx}, pacchetto Python open-source (FEniCSx) per modelli termo-meccanici: da un singolo script a un pacchetto orientato agli oggetti con gerarchie di classi, configurazione tramite dataclass e input YAML, installabile con pip
+    \item Configurato la CI con GitHub Actions: suite pytest con copertura Codecov, test di regressione su benchmark pubblicati, documentazione Sphinx pubblicata su GitHub Pages
+    \item Costruito workflow automatici per lanciare le simulazioni, elaborare gli output e analizzare grandi dataset
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2021--05/2024}{Research Fellow}{University of Bayreuth}{Bayreuth, Germania}{}{\vspace{1pt}
+\begin{itemize}
+    \item Sviluppato un algoritmo di ottimizzazione che ricava i parametri del modello a partire da dati sperimentali 2D, e un modello ridotto 0D che predice il comportamento delle simulazioni 3D
+    \item Prodotto database pubblici: 20 TB di dati simulati condensati in 200 GB di output accessibili
+    \item Scritto strumenti Python per pulizia, analisi e visualizzazione dei dati, usati nella reportistica di progetto
+    \item Esteso un pacchetto open-source in Julia; fornito dati e supporto al gruppo di modellistica del KIT di Karlsruhe
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2015--07/2021}{Research Fellow}{Johannes Gutenberg Universität Mainz}{Magonza, Germania}{}{\vspace{1pt}
+\begin{itemize}
+    \item Generato ed elaborato oltre 100 TB di dati di simulazione; sviluppato strumenti di visualizzazione 2D/3D per individuare andamenti fisici
+    \item Integrato la modellistica chimica in un codice numerico 3D su larga scala (\href{https://github.com/UniMainzGeo/LaMEM}{LaMEM})
+    \item Presentato i risultati a conferenze internazionali; supporto a didattica e supervisione
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     FORMAZIONE
+% ============================================================
+
+\needspace{8\baselineskip}
+\section{Formazione}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2015--05/2019}{Dottorato in Geodinamica Computazionale}{Johannes Gutenberg Universität Mainz}{Magonza, Germania}{}{\vspace{1pt}
+Tesi: ``Continental crust production during the early Earth: Constraints from geodynamic models.'' Modellistica numerica termo-meccanica, analisi dati, CI.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{10/2012--03/2015}{Laurea Magistrale in Geologia e Geologia Tecnica}{Università degli Studi di Padova}{Padova}{}{\vspace{1pt}
+Analisi dati, modellistica numerica, comunicazione scientifica, acquisizione dati sul campo.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{10/2008--03/2012}{Laurea Triennale in Scienze Geologiche}{Università degli Studi di Padova}{Padova}{}{\vspace{1pt}
+Analisi dati, MATLAB, acquisizione dati sul campo.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     REPOSITORY & PUBBLICAZIONI
+% ============================================================
+
+\section{Repository}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{Autore:} \href{https://github.com/APiccolo89/StonedFenicsx}{StonedFEniCSx} \textbar{} \textbf{Contributore:} \href{https://github.com/UniMainzGeo/LaMEM}{LaMEM}, \href{https://github.com/JuliaGeodynamics/GeophysicalModelGenerator.jl}{GeophysicalModelGenerator.jl}, \href{https://bitbucket.org/bkaus/mvep2/}{MVEP2}
+\end{itemize}
+
+\needspace{5\baselineskip}
+\section{Pubblicazioni selezionate}
+\vspace{1pt}
+{\small
+\begin{itemize}
+\item Kaus, B.\,J., \ldots, \textbf{Piccolo, A.}, et al.\ (2024). GeophysicalModelGenerator.jl: A Julia package to visualise geoscientific data and create numerical model setups. \textit{Journal of Open Source Software}, 9(103), 6763.
+\item \textbf{Piccolo, A.}, Spang, A., et al.\ (2026). The dynamics and surface signal of slab break-off in continental settings: Insights from 3D numerical modeling. \textit{JGR: Solid Earth}, 131(5).
+\item \textbf{Piccolo, A.}, Palin, R.\,M., et al.\ (2019). Generation of Earth's early continents from a relatively cool Archean mantle. \textit{Geochem., Geophys., Geosyst.}, 20(4), 1679--1697.
+\item \textbf{Piccolo, A.}, Kaus, B.\,J., et al.\ (2020). Plume--lid interactions during the Archean and implications for the generation of early continental terranes. \textit{Gondwana Research}, 88, 150--168.
+\item[] 12 articoli peer-reviewed in totale (4 da primo autore); elenco completo su richiesta.
+\end{itemize}}
+
+% ============================================================
+%     LINGUE
+% ============================================================
+
+\section{Lingue}
+\vspace{1pt}
+\begin{itemize}
+\item Italiano (madrelingua), inglese (C1), tedesco (B1).
+\end{itemize}
+
+% ============================================================
+%     REFERENZE
+% ============================================================
+
+\section{Referenze}
+\vspace{1pt}
+\begin{itemize}
+\item Prof.\ Dr.\ Timothy J.\ Craig --- University of Leeds (\href{mailto:T.J.Craig@leeds.ac.uk}{T.J.Craig@leeds.ac.uk})
+\item Prof.\ Dr.\ Marcell Thielmann --- University of Bonn (\href{mailto:thielmann@geo.uni-bonn.de}{thielmann@geo.uni-bonn.de})
+\item Prof.\ Dr.\ Nevena Andri\'c Toma\v{s}evi\'c --- KIT Karlsruhe (\href{mailto:nevena.tomasevic@kit.edu}{nevena.tomasevic@kit.edu})
+\item Dr.\ Arne Spang --- University of Bayreuth (\href{mailto:arne.spang@uni-bayreuth.de}{arne.spang@uni-bayreuth.de})
+\end{itemize}
+
+\vspace{6pt}
+{\scriptsize Autorizzo il trattamento dei dati personali contenuti nel CV ai sensi del Regolamento UE 2016/679 (GDPR).}
+
+\end{document}

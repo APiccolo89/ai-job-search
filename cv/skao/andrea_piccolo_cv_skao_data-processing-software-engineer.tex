@@ -1,0 +1,162 @@
+%% Andrea Piccolo - CV tailored for Data Processing Software Engineer, SKA Observatory (SKAO)
+%%
+%% Compile with: lualatex main_skao.tex
+%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+\usepackage[sfdefault]{carlito}
+% Force both first and last name AND section headings to render in moderncv
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
+% looks inconsistent with the rest of the blue accent scheme.
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Andrea Piccolo - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.77]{geometry}
+\usepackage{needspace}
+\usepackage{import}
+
+% personal data
+\name{Andrea}{Piccolo}
+\address{Leeds, UK}{}{}
+\phone[mobile]{+44 7831 007579}
+\email{andreapiccolope@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/ap0889/}{LinkedIn}, \href{https://github.com/APiccolo89}{GitHub} \textbar{} UK Global Talent Visa -- no sponsorship required}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Computational scientist and Python developer with a decade of experience building automated, regression-tested pipelines that process and monitor large-scale scientific datasets on HPC clusters (SLURM, PBS). Processed 100+ TB of raw simulation output and condensed 30 TB of simulated data into a curated, publicly accessible 300 GB database, working across multinational research teams in the UK and Germany.}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Skills}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Scientific Python Development \& Testing}: NumPy, SciPy, pandas, h5py, Numba, pytest -- systematic testing and documented, production-quality numerical software (achieved a 10\texttimes{} speedup optimising a pre-existing package)
+
+\item \textbf{Automated Pipeline Integration \& Performance Monitoring}: built automated workflows to run simulations, process outputs, and validate performance end to end; regression-tested benchmarking to catch errors before they reached downstream analysis
+
+\item \textbf{HPC \& Large-Scale Data Processing}: SLURM and PBS job scheduling; processed 100+ TB of simulation data; condensed 30 TB of raw output into a curated, publicly accessible 300 GB database
+
+\item \textbf{Software Engineering Practices}: Git, GitHub Actions (CI/CD), version-controlled documentation (Sphinx, LaTeX, Markdown) -- clean, maintainable, reusable code as standard practice
+
+\item \textbf{Cross-Institutional, Multinational Collaboration}: delivered shared datasets and joint outputs across research teams at four European institutions (Leeds, Bayreuth, Mainz, KIT Karlsruhe), coordinating differing team requirements into common pipelines
+
+\item \textbf{Managing Competing Priorities}: independently owned full analytical workflows end to end, from design through documentation and reporting, across multiple concurrent research threads
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{02/2025--Present}{Research Fellow}{University of Leeds}{Leeds, UK}{}{\vspace{1pt}
+\begin{itemize}
+    \item Built automated workflows to run simulations, process outputs, and monitor performance across large datasets, end to end
+    \item Integrated regression tests to validate numerical output against benchmarks -- caught errors before they reached downstream analysis
+    \item Developed a numerical software package using FEniCSx and Python, applying systematic testing and documentation practices; optimised a pre-existing package achieving a 10\texttimes{} speedup
+    \item Managed the full analytical workflow independently, from pipeline design to documentation and reporting
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2021--05/2024}{Research Fellow}{University of Bayreuth}{Bayreuth, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Designed and delivered a publicly available database: condensed 30 TB of simulated data into a curated, accessible 300 GB dataset
+    \item Built Python pipelines for data cleaning, transformation, and validation to support project reporting and reuse by other researchers
+    \item Collaborated across institutions, coordinating a shared data pipeline with the KIT Karlsruhe basin modelling group
+    \item Extended an open-source modelling package in Julia; merged forward mechanical modelling into basin forward modelling
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2015--07/2021}{Research Fellow}{Johannes Gutenberg Universität Mainz}{Mainz, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Generated and processed large-scale simulation datasets (100+ TB) on HPC clusters using SLURM job scheduling; explored and visualised data to identify physical trends
+    \item Developed data-processing routines and 2D/3D visualisation tools to make complex datasets interpretable for other researchers
+    \item Incorporated chemical modelling into large-scale 3D numerical code
+    \item Presented results at international conferences; supported supervision and teaching activities
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{11/2015--05/2019}{PhD in Computational Geodynamics}{Johannes Gutenberg Universität Mainz}{Mainz, Germany}{}{\vspace{1pt}
+Thesis: ``Continental crust production during the early Earth: Constraints from geodynamic models.''
+}}
+
+\vspace{3pt}
+
+\item{\cventry{10/2012--03/2015}{MSc in Geology and Technical Geology}{University of Padua}{Padua, Italy}{}{\vspace{1pt}
+Data analysis, numerical modelling, report production, scientific communication.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{10/2008--03/2012}{BSc in Earth Sciences}{University of Padua}{Padua, Italy}{}{\vspace{1pt}
+Data analysis, MATLAB, field data acquisition.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item Italian (native), English (C1), German (B1).
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item Prof.\ Dr.\ Timothy J.\ Craig --- University of Leeds (\href{mailto:T.J.Craig@leeds.ac.uk}{T.J.Craig@leeds.ac.uk})
+\item Prof.\ Dr.\ Marcell Thielmann --- University of Bonn (\href{mailto:thielmann@geo.uni-bonn.de}{thielmann@geo.uni-bonn.de})
+\item Prof.\ Dr.\ Nevena Andric Tomasevic --- KIT Karlsruhe (\href{mailto:nevena.tomasevic@kit.edu}{nevena.tomasevic@kit.edu})
+\item Dr.\ Arne Spang --- University of Bayreuth (\href{mailto:arne.spang@uni-bayreuth.de}{arne.spang@uni-bayreuth.de})
+\end{itemize}
+
+\end{document}

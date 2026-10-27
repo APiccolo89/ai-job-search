@@ -2,11 +2,17 @@
 
 ## Search Sites
 
-Primary (UK job market):
+**SCRAPE SCOPE as of 2026-10-21: only the UK (incl. Scotland), the Netherlands, Germany and Switzerland.** Andrea narrowed it after the search had spread across 11 countries with little to show for it. Run only those four region sets every scrape. Ireland, Norway, Italy, Canada, Australia and New Zealand are NOT scraped (their sections below are kept for reference, marked INACTIVE); they remain acceptable locations if Andrea brings a posting himself. The UK is a full target again, not a fallback (a UK job suits his relationship). Netherlands sources:
+- **linkedin.com/jobs** (location: Netherlands)
+- **werkzoeken.nl / nationalevacaturebank.nl / indeed.nl** - Dutch generalist boards (many tech postings in English)
+- **academictransfer.com** - Dutch research/university jobs (RSE roles at TU Delft, Utrecht, etc.)
+- Direct career pages: **Deltares** (https://www.deltares.nl/en/careers), **TNO** (https://www.tno.nl/en/careers/), **KNMI** (https://www.knmi.nl/over-het-knmi/werken-bij-het-knmi), **Netherlands eScience Center** (https://www.esciencecenter.nl/vacancies/), **Fugro** (https://careers.fugro.com), **Shell** (https://www.shell.com/careers)
+
+UK job market:
 - **linkedin.com/jobs** - LinkedIn job listings (filter: Leeds / Yorkshire / UK)
 - **indeed.co.uk** - largest UK generalist job board
 - **totaljobs.com** - large UK generalist job board, strong industry/commercial coverage
-- **jobs.ac.uk** - academic and research roles in UK universities and institutes
+- **jobs.ac.uk** - academic and research roles in UK universities and institutes. **Stale-ID issue (confirmed 2026-08-04):** individual `jobs.ac.uk/job/<ID>/...` URLs from WebSearch results go dead within days - WebFetch on an expired ID silently redirects to the generic search results page instead of erroring, so always check the fetched content isn't a "no longer being advertised" listing page before trusting it as the target job. LinkedIn and totaljobs individual postings have the same issue (redirect/404 on expired listings). Workaround: when a specific ID is stale, re-search or go to the employer's own vacancies page (e.g. `jobs.ac.uk/search/employer/<name>` or the institute's own `/vacancies` page) to get a currently-live URL for the same role.
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for known target organisations
@@ -94,16 +100,19 @@ As of 2026-07-28, there is no commute/relocation radius restriction — any loca
 
 - **UK-wide:** All UK locations PASS, including London. Note commute/relocation distance from Leeds for context (e.g. "Leeds-based, no relocation needed" vs. "London — would require relocation") but do not use it to exclude results.
 - **Secondary relocation - Scotland:** Any city (Edinburgh, Glasgow, Aberdeen, etc.) — UK, no visa/relocation barrier
-- **Secondary relocation - Netherlands:** Any city
+- **PRIMARY - Netherlands:** Any city (primary market from 2026-10-19; UK is now fallback)
 - **Secondary relocation - Ireland:** Any city
 - **Secondary relocation - Norway:** Any city
-- **Secondary relocation - Germany:** Berlin only (not other German cities) — possible relocation with partner
+- **Secondary relocation - Germany:** any city (widened from Berlin-only 2026-10-16). Prefer English-speaking employers — Andrea's German is B1
 - **Secondary relocation - Switzerland:** Any city (added 2026-07-30)
-- **Excluded:** Relocation outside the UK, Scotland, Netherlands, Ireland, Norway, Switzerland, or Berlin remains a deal-breaker (see CLAUDE.md)
+- **Secondary relocation - Canada:** Any city (added 2026-10-21) — work permit needed, flag sponsorship on every posting
+- **Secondary relocation - Australia / New Zealand:** Any city (added 2026-10-21) — employer sponsorship needed, flag on every posting
+- **Secondary relocation - Italy:** Any city (added 2026-10-15)
+- **Excluded:** Relocation outside the UK, Scotland, Netherlands, Ireland, Norway, Switzerland, Italy, Germany, Canada, Australia, or New Zealand remains a deal-breaker (see CLAUDE.md)
 
 Remote and hybrid roles anywhere in the UK are acceptable.
 
-### Secondary regions: Scotland
+### Region: Scotland (part of the UK scrape)
 
 ```
 site:jobs.ac.uk "research software engineer" Python Scotland
@@ -111,22 +120,25 @@ site:linkedin.com/jobs "research software engineer" OR "data engineer" Edinburgh
 site:indeed.co.uk "data scientist" OR "research software engineer" Edinburgh OR Glasgow OR Aberdeen
 ```
 
-### Secondary regions: Netherlands
+### Region: Netherlands (active)
 
 ```
 site:linkedin.com/jobs "research software engineer" OR "scientific software engineer" Python Netherlands
 site:linkedin.com/jobs "computational scientist" OR "data engineer" Netherlands
+site:linkedin.com/jobs "modelling" OR "numerical" OR "simulation" Python Delft OR Utrecht OR Amsterdam OR Rotterdam OR Eindhoven
+site:academictransfer.com "research software engineer" OR "scientific programmer" OR "scientific software"
 "data scientist" OR "environmental modeller" vacature Netherlands Python
+hydrodynamic OR groundwater OR subsurface OR geothermal Python modelling Netherlands vacancy English
 ```
 
-### Secondary regions: Ireland
+### Secondary regions: Ireland — INACTIVE, not scraped since 2026-10-21
 
 ```
 site:linkedin.com/jobs "research software engineer" OR "data engineer" Python Ireland
 site:jobs.ac.uk "research software engineer" Ireland
 ```
 
-### Secondary regions: Norway
+### Secondary regions: Norway — INACTIVE, not scraped since 2026-10-21
 
 Job bank: **jobbnorge.no** (Norway's main public/academic job portal, added 2026-07-30)
 
@@ -138,7 +150,7 @@ site:linkedin.com/jobs "research software engineer" OR "data engineer" Norway
 site:jobbnorge.no "research software engineer" OR "data engineer" OR geoscientist
 ```
 
-### Secondary regions: Switzerland (added 2026-07-30)
+### Region: Switzerland (active)
 
 Job banks: **jobs.ch** (leading commercial portal), **job-room.ch** (official Swiss public employment service)
 
@@ -151,11 +163,59 @@ site:job-room.ch "software engineer" OR "data engineer" Python
 site:linkedin.com/jobs "research software engineer" OR "data engineer" Python Switzerland
 ```
 
-### Secondary regions: Berlin, Germany
+### Secondary regions: Italy (added 2026-10-15) — INACTIVE, not scraped since 2026-10-21
+
+**Market note (first scrape 2026-10-15):** "Research software engineer" is rare as a job title in Italy - zero live matches found. Relevant roles cluster in a few research centres, and many public-research posts (INGV, CNR, OGS) are filled via *concorsi pubblici* on InPA rather than job boards. Salaries mostly €35–55k, often fixed-term (e.g. CMCC co.co.co.). CMCC senior/mid-level researcher roles tend to require fundraising/proposal writing - check against the grant-writing deal-breaker.
+
+Direct career pages to check each Italy scrape (poorly indexed by search engines):
+- **CINECA** (Bologna, HPC): https://www.cineca.it ("Lavora con noi")
+- **CMCC** (climate modelling): https://www.cmcc.it/work-with-us
+- **INGV** (geophysics): https://www.ingv.it (Bandi e concorsi)
+- **OGS** (Trieste, oceanography/geophysics, HPC): https://www.ogs.it ("Lavora con noi")
+- **ECMWF Bologna**: https://jobs.ecmwf.int (filter duty station Bologna)
+- **Human Technopole** (Milan, RSE roles but biomedical): https://careers.humantechnopole.it
+- **InPA** (public competitions portal): https://www.inpa.gov.it
 
 ```
-site:linkedin.com/jobs "research software engineer" OR "scientific software engineer" Python Berlin
+site:linkedin.com/jobs "research software engineer" OR "scientific software" OR "computational scientist" Python Italy
+"sviluppatore software scientifico" OR "calcolo scientifico" OR "modellazione numerica" Python offerta lavoro
+"tecnologo" OR "assegno di ricerca" software HPC Python INGV OR CNR OR OGS
+site:academicpositions.com Italy "research software engineer" OR "scientific programmer"
+```
+
+### Secondary regions: Canada (added 2026-10-21) — INACTIVE, not scraped since 2026-10-21
+
+**Work permit:** Andrea has no Canadian work rights (not covered by EU/UK status). He needs an employer-supported permit (LMIA, or the faster Global Talent Stream for tech roles) or Express Entry permanent residence. Check every posting for "must be legally eligible to work in Canada" (common, effectively excludes him unless the employer will sponsor) and flag it; favour postings that mention sponsorship/relocation support. Many federal government roles (NRCan, Environment and Climate Change Canada) give preference to Canadian citizens/PRs.
+
+Sources: **linkedin.com/jobs** (location: Canada), **ca.indeed.com**, **jobbank.gc.ca** (Job Bank, shows LMIA-approved postings), university career pages (UBC, Toronto, McGill, Waterloo, Alberta, Calgary), **Digital Research Alliance of Canada** (RSE/HPC roles), **Mitacs** (industry-academic placements).
+
+```
+site:linkedin.com/jobs "research software engineer" OR "scientific software engineer" Python Canada
+site:ca.indeed.com "research software engineer" OR "scientific computing" OR "simulation" Python
+site:jobbank.gc.ca "software engineer" OR "data engineer" Python scientific
+"research software engineer" OR "scientific programmer" Python Vancouver OR Toronto OR Montreal OR Calgary OR Ottawa visa sponsorship
+```
+
+### Secondary regions: Australia / New Zealand (added 2026-10-21) — INACTIVE, not scraped since 2026-10-21
+
+**Work permit:** no work rights in either. Australia: employer-sponsored Skills in Demand (subclass 482) visa, or the National Innovation visa (talent-based). New Zealand: Accredited Employer Work Visa (employer must be accredited). Flag "must have Australian/NZ work rights" and "citizens or permanent residents only" lines (common in government and security-related roles, e.g. CSIRO, Geoscience Australia, Bureau of Meteorology often require citizenship) on every posting.
+
+Sources: **seek.com.au** / **seek.co.nz** (main boards), **linkedin.com/jobs**, **apsjobs.gov.au** (Australian public service), university pages, **CSIRO** (https://jobs.csiro.au), **NCI Australia** and **Pawsey Supercomputing Centre** (HPC/RSE roles), **NIWA / Earth Sciences New Zealand** and **NeSI** (NZ HPC/RSE).
+
+```
+"research software engineer" OR "scientific software" Python Australia job
+"research software engineer" OR "scientific software" Python "New Zealand" job
+site:seek.com.au "research software engineer" OR "scientific programmer" OR "simulation" Python
+Pawsey OR NCI OR NeSI OR CSIRO "research software engineer" OR "HPC" vacancy
+```
+
+### Region: Germany (active, any city)
+
+```
+site:linkedin.com/jobs "research software engineer" OR "scientific software engineer" Python Germany English
 "data scientist" OR "wissenschaftlicher Mitarbeiter" Python Berlin Stellenangebot
+"simulation engineer" OR "numerical" Python Munich OR Karlsruhe OR Hamburg OR Bremen English-speaking
+geothermal OR Geothermie Python modelling Germany job (Eavor, Vulcan Energy, Fraunhofer IEG, GFZ, DLR)
 ```
 
 ## Date Filter

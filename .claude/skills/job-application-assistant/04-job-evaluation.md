@@ -51,7 +51,8 @@ Does the role and company culture match the behavioral profile?
 ### 4. Location & Logistics (Pass/Fail + Notes)
 - Anywhere in the UK: PASS (radius restriction lifted 2026-07-28 — priority is landing a first industry role)
 - Remote with occasional office: PASS
-- Scotland, Netherlands (any city), Ireland (any city), Norway (any city), Switzerland (any city), or Berlin (Germany only): PASS (secondary relocation options)
+- Scotland, Netherlands (any city), Ireland (any city), Norway (any city), Switzerland (any city), Italy (any city), or Germany (any city): PASS (secondary relocation options)
+- Canada, Australia, New Zealand (any city): PASS with FLAG — Andrea has no Canadian work rights; note whether the posting requires existing eligibility to work in Canada or offers sponsorship (LMIA / Global Talent Stream)
 - Requires relocation elsewhere: FAIL (deal-breaker)
 - Frequent international travel: FLAG (discuss with user)
 - **Requires UK nationality / security clearance (SC, DV) / defence sector with clearance mentioned: FLAG explicitly.** Andrea's UK right-to-work (Global Talent Visa) does not satisfy UK nationality or security clearance requirements — same principle as the UK Civil Service exclusion (see CLAUDE.md). Don't silently screen out, but flag clearly so Andrea can confirm case-by-case.
@@ -69,7 +70,7 @@ Does this role advance career goals and contain tasks that energize?
 **Career goals:**
 - Land a first industry role from academia — as of July 2026, sector and location are secondary to breaking in
 - Join a structured technical team with clear deliverables and genuine professional development opportunities
-- Open to anywhere in the UK; secondary international options: Scotland, Netherlands, Ireland, Norway, Switzerland, Berlin only. Salary target £39,000–£45,000 is a soft reference point, not a hard floor — do not screen out a reasonable permanent role for low salary alone
+- Open to anywhere in the UK; secondary international options: Scotland, Netherlands, Ireland, Norway, Switzerland, Italy, Germany (any city; flag German-language requirements), Canada / Australia / New Zealand (flag work-permit/sponsorship). Salary target £39,000–£45,000 is a soft reference point, not a hard floor — do not screen out a reasonable permanent role for low salary alone
 - Longer-term: grow into a recognised in-house expert and mentor/support role within a company. A visible technical career ladder or mentoring culture is a positive signal, not a requirement, for a first role
 
 **Motivation filter (revised 2026-07-30):** Task type (whether the day-to-day is modelling/Python/analysis specifically, versus data administration, coordination, QC, or other technical-adjacent work) is **no longer a scoring factor** for Career Alignment — as of July 2026, landing a first industry role matters more than the tasks matching a specific "energizing" profile. Do not mark a role down just because it isn't modelling/analysis work.
@@ -80,7 +81,7 @@ Still relevant to flag (not as a score penalty, but as context for the user to w
 - Seniority mismatch: a role titled "Junior"/"Entry-level"/"Early Careers" for a candidate with a PhD + a decade of experience is a distinct concern from task type — it can mean a real step backward in pay and career trajectory, and is still worth flagging explicitly
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: Currently employed until Feb 2027 — not desperate, can be selective
+- **Security**: Currently employed until Jan 2027 — not desperate, can be selective
 - **Flexibility**: Needs hybrid or flexible working; open to relocation anywhere in the UK
 - **Professional development**: Growth, learning, and technical challenge are must-haves — not just a job title change
 
