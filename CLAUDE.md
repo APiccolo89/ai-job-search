@@ -12,9 +12,9 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ### Identity
 - **Name:** Andrea Piccolo
-- **Location:** Leeds, UK (base; hybrid/remote preferred where offered). **As of 2026-07-28, the commute/relocation radius restriction is lifted — Andrea needs to land a first industry role and will consider anywhere in the UK.** This supersedes the earlier ~100km-radius loosening (Sheffield/York/Hull/Doncaster/Wakefield/Bradford/Huddersfield/Harrogate/Nottingham/Derby/Liverpool) — that radius is no longer a filter, just useful context on commute distance to flag alongside an evaluation. Check with Andrea if it's been a long time since this was last confirmed, as it may tighten again once he's employed. Secondary international options: Scotland (UK, no relocation/visa barrier); Netherlands (any city); Berlin, Germany only (possible relocation with partner — not other German cities); Ireland (any city); Norway (any city); **Switzerland (any city, added 2026-07-30)**.
+- **Location:** Leeds, UK (current base). **SCRAPE SCOPE as of 2026-10-21: UK, Netherlands, Germany, Switzerland only** — the other countries below stay acceptable locations but are not searched; the UK is a full target, not a fallback (a UK job suits Andrea's relationship). Earlier note: **PRIMARY TARGET MARKET as of 2026-10-19: the Netherlands (any city)** — Andrea wants to leave the UK (decided after the Leeds RSE rejection). English-friendly workplaces, strong fit with water/subsurface/energy/climate modelling (Deltares, TNO, KNMI, Shell, Fugro, TU Delft ecosystem); EU citizen, no permit needed; possible 30%/27% expat tax ruling (check eligibility). Lead every scrape and recommendation with Netherlands roles. **Germany is the second choice** (prior 8+ years there, Mainz/Bayreuth/KIT network). **The UK is now a fallback only**, not the main search. Contract in Leeds ends Jan 2027 — target a start around then. Earlier UK note, kept for fallback searches: **As of 2026-07-28, the commute/relocation radius restriction is lifted — Andrea needs to land a first industry role and will consider anywhere in the UK.** This supersedes the earlier ~100km-radius loosening (Sheffield/York/Hull/Doncaster/Wakefield/Bradford/Huddersfield/Harrogate/Nottingham/Derby/Liverpool) — that radius is no longer a filter, just useful context on commute distance to flag alongside an evaluation. Check with Andrea if it's been a long time since this was last confirmed, as it may tighten again once he's employed. Secondary international options: Scotland (UK, no relocation/visa barrier); Netherlands (any city); **Germany (any city, widened from Berlin-only on 2026-10-16 — note most German roles expect German C1; Andrea is B1, so favour English-speaking employers)**; Ireland (any city); Norway (any city); **Switzerland (any city, added 2026-07-30)**; **Italy (any city, added 2026-10-15 — native country, no permit needed; research-centre roles often filled via public competitions on InPA)**; **Canada (any city, added 2026-10-21 — NOT EU/UK: Andrea has no Canadian work rights, so he needs an employer-supported work permit (LMIA / Global Talent Stream) or Express Entry PR; flag permit/sponsorship requirements on every Canadian posting and favour employers that state they sponsor)**; **Australia and New Zealand (any city, added 2026-10-21 — same situation as Canada: no work rights, needs employer sponsorship (AU: Skills in Demand visa / National Innovation visa; NZ: Accredited Employer Work Visa) — flag on every posting)**.
 - **Languages:** Italian (native), English (C1), German (B1)
-- **Status:** Employed until February 2027
+- **Status:** Employed until January 2027 (corrected 2026-10-22; earlier notes said February)
 - **Visa:** Global Talent Visa (UK) — not employer-tied; full freedom to work for any UK employer without sponsorship. Also full EU/EEA working rights as Italian citizen.
 - **LinkedIn headline:** "Research Fellow | Computational Geoscientist | Python Developer"
 
@@ -33,7 +33,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
   - Built automated workflows for simulation, output processing, and large-scale data analysis
   - Integrated regression tests and validated results against benchmarks
 - **Research Fellow** (11/2021–05/2024) - **University of Bayreuth** (Bayreuth, Germany)
-  - Delivered publicly available databases (30 TB simulated data condensed to 300 GB)
+  - Delivered publicly available databases (20 TB simulated data condensed to 200 GB)
   - Extended an open-source package in Julia; merged forward mechanical into basin modelling
   - Cross-institutional collaboration with KIT Karlsruhe
 - **Research Fellow** (11/2015–07/2021) - **University of Mainz** (Mainz, Germany)
@@ -71,7 +71,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - Working in technical teams where scientific rigour is valued
 
 ### Target Sectors
-**Primary goal (as of July 2026): get a first step into industry from academia — sector is secondary to breaking in.** Environmental/geoscience/energy is a preference where skills transfer most directly, not a requirement. Any industry sector using Python/data analysis/numerical modelling/software engineering skills is in scope — finance, manufacturing, tech, logistics, insurance, healthcare data, etc. Do not filter out otherwise-viable postings solely for being outside the environmental/energy/research sectors below.
+**Primary goal (as of July 2026): get a first step into industry from academia — sector is secondary to breaking in.** **Update 2026-10-19: Andrea no longer wants geoscience — do not prioritise or frame roles around geoscience/earth science. Target any job that fits his skills (Python, numerical modelling/simulation, scientific software, data pipelines, HPC, testing/CI).** Geoscience roles are not excluded if they come up, but they are no longer a preference. Any industry sector using Python/data analysis/numerical modelling/software engineering skills is in scope — finance, manufacturing, tech, logistics, insurance, healthcare data, etc. Do not filter out otherwise-viable postings solely for being outside the environmental/energy/research sectors below.
 
 **Longer-term goal:** Become a recognised in-house expert within a company, growing into a support/mentor role for colleagues — not just an individual contributor. Favour employers with a visible technical career ladder or mentoring culture where this is achievable over time; this is an aspirational fit signal, not a deal-breaker if absent from a first-role posting.
 - Environmental consultancy / geoscience services: Arup, Jacobs, WSP, Ricardo, Mott MacDonald, Stantec
@@ -81,7 +81,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ### Deal-breakers
 - Requires writing grant proposals or project bids
-- Requires relocation outside the UK, Scotland, Netherlands, Ireland, Norway, Switzerland, or Berlin (see Identity/Location note — UK-wide is in scope as of 2026-07-28, no radius restriction)
+- Requires relocation outside the UK, Scotland, Netherlands, Ireland, Norway, Switzerland, Italy, Germany, Canada, Australia, or New Zealand (see Identity/Location note — UK-wide is in scope as of 2026-07-28, no radius restriction)
 - No technical team (solo or pure management role)
 - Highly unstructured / chaotic environment with no clear processes
 - Salary: no hard floor — £39,000 was the old target for industry data science roles, but relaxed for genuinely strong-fit alternatives (e.g. teaching, patent examiner, career-change paths) where lower starting pay is normal and rises with progression. As of July 2026, salary is secondary to landing a first industry role at all — do not screen out a reasonable permanent role for low salary alone; flag it and let Andrea decide.
@@ -92,6 +92,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - **Sector:** No sector preference — see Target Sectors above. Andrea needs a job; any industry is in scope.
 
 ## Repo Structure
+- **CV FORMAT CHANGE (2026-10-24): new CVs use Andrea's Word layout, master = `cv/main_cv_master.docx`** (plain single-column, Arial-style headings PROFILE / WORK EXPERIENCE / EDUCATION AND TRAINING / SKILLS / LANGUAGES / OPEN-SOURCE REPOSITORIES / REFERENCES, bullets with dash sub-bullets, dates right-aligned). Tailor by copying the master to `cv/<company>/Andrea_Piccolo_CV_<company>.docx` and editing the copy, keeping the layout; export a PDF to check page count. The moderncv/LaTeX rules below (lualatex, `\cventry`, needspace) apply only to the old LaTeX CVs. Cover letters stay LaTeX/cover.cls.
 - `cv/` - LaTeX CV variants (moderncv template, banking style). `main_example.tex` (master reference) lives at the root; each application gets its own subfolder, e.g. `cv/<company>/main_<company>.tex`
 - `cover_letters/` - LaTeX cover letters (custom cover.cls template). `cover.cls` and `OpenFonts/` live at the root (shared); each application gets its own subfolder, e.g. `cover_letters/<company>/cover_<company>_<role>.tex`, alongside any extra application-answer `.txt`/`.md` files for that company
 - `.claude/skills/` - AI skill definitions for the application workflow

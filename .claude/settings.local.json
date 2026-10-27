@@ -73,7 +73,27 @@
       "WebFetch(domain:www.ecmselection.co.uk)",
       "WebFetch(domain:careers.lowcarboncontracts.uk)",
       "Bash(lualatex -interaction=nonstopmode main_lccc.tex)",
-      "Bash(lualatex -interaction=nonstopmode main_example.tex)"
+      "Bash(lualatex -interaction=nonstopmode main_example.tex)",
+      "Bash(xelatex -interaction=nonstopmode -output-directory=lccc lccc/cover_lccc_energy-analyst.tex)",
+      "WebFetch(domain:careershub.nationalgrid.co.uk)",
+      "WebFetch(domain:jobs.nationalgrid.com)",
+      "WebFetch(domain:jobs.shell.com)",
+      "WebFetch(domain:smartestenergy.teamtailor.com)",
+      "WebFetch(domain:www.earlham.ac.uk)",
+      "WebFetch(domain:recruitment.skao.int)",
+      "WebFetch(domain:www.c2d3.cam.ac.uk)",
+      "WebFetch(domain:www.skao.int)",
+      "Bash(lualatex -interaction=nonstopmode main_skao.tex)",
+      "Bash(xelatex -interaction=nonstopmode -output-directory=skao skao/cover_skao_data-processing-software-engineer.tex)",
+      "WebFetch(domain:careers.halliburton.com)",
+      "Bash(xelatex -interaction=nonstopmode -output-directory=halliburton halliburton/cover_halliburton_data-integration-geoscientist.tex)",
+      "WebFetch(domain:jobs.totalenergies.com)",
+      "Bash(lualatex -interaction=nonstopmode andrea_piccolo_cv_totalenergies_digital-geoscientist.tex)",
+      "WebFetch(domain:townrockenergy.com)",
+      "Bash(lualatex -interaction=nonstopmode andrea_piccolo_cv_heriotwatt_geothermal-reservoir-engineer.tex)",
+      "Bash(xelatex -interaction=nonstopmode -output-directory=heriotwatt heriotwatt/cover_heriotwatt_geothermal-reservoir-engineer.tex)",
+      "Bash(rm -f /Users/wlnw570/Work/Leeds/ai-job-search/cv/heriotwatt/*.aux /Users/wlnw570/Work/Leeds/ai-job-search/cv/heriotwatt/*.log /Users/wlnw570/Work/Leeds/ai-job-search/cv/heriotwatt/*.out /Users/wlnw570/Work/Leeds/ai-job-search/cv/heriotwatt/*.fls /Users/wlnw570/Work/Leeds/ai-job-search/cv/heriotwatt/*.fdb_latexmk)",
+      "Bash(rm -f /Users/wlnw570/Work/Leeds/ai-job-search/cover_letters/heriotwatt/*.aux /Users/wlnw570/Work/Leeds/ai-job-search/cover_letters/heriotwatt/*.log /Users/wlnw570/Work/Leeds/ai-job-search/cover_letters/heriotwatt/*.out)"
     ]
   }
 }
